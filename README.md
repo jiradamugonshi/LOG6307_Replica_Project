@@ -14,5 +14,9 @@ of the puppet files in the repo and print only those whose ratios are at least 1
 3. Next, after getting the repos candidates, we will exacute git_log_branches.sh to get the commits and their commit dates.
 We will export the results to a csv file.
 
-4. We will run the repo_mining.ipynb notebook against the csv file to extract only the repos that have at least 2 commits per month.
-At the end we get another list that we will use in the next step. 
+4. We will run repo_mining.ipynb notebook against the csv file to extract only the repos that have at least 2 commits per month.
+At the end we get another list that we will use in the next step.
+
+5. We run git_log_pp_commits.sh to only retrieve messages from commits that affected puppet files.
+
+6. We run also gh_repo_issue.sh to list the issues of the repo candidates
