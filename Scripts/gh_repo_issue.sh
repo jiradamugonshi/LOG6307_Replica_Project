@@ -21,5 +21,5 @@ for path in "${dir_array_mirantis[@]}"; do
 done
 
 for path in "${dir_array_mozilla[@]}"; do
-	gh issue list --repo "mozilla/$path"
+	gh issue list --repo "mozilla/$path" >> "./$output_file" 2>&1
 done
