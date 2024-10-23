@@ -1,0 +1,3390 @@
+fuel-plugin-celebrer-+-6cc9a39-+-Add dashboard
+
+fuel-plugin-celebrer-+-14fde23-+-Integrate python client
+
+fuel-plugin-celebrer-+-3ec066f-+-Update server.pp
+
+fuel-plugin-celebrer-+-cc7d29a-+-Update ha.pp
+
+fuel-plugin-celebrer-+-2a3084e-+-Update ha.pp
+
+fuel-plugin-celebrer-+-0cd055c-+-Update ha.pp
+
+fuel-plugin-celebrer-+-9f1079f-+-Update auth.pp
+
+fuel-plugin-celebrer-+-f85a004-+-Update keystone.pp
+
+fuel-plugin-celebrer-+-fc2f76d-+-Fix, change credentials to glance
+
+fuel-plugin-celebrer-+-bc44920-+-Update ha.pp
+
+fuel-plugin-celebrer-+-b000cf9-+-Merge branch 'master' of github.com:Mirantis/fuel-plugin-celebrer
+
+fuel-plugin-celebrer-+-7e379e1-+-Adding HA-proxy supports.
+
+fuel-plugin-celebrer-+-29ec047-+-Create auth.pp
+
+fuel-plugin-celebrer-+-412024a-+-Adding keystone supports.
+
+fuel-plugin-celebrer-+-e0741b1-+-Update params.pp
+
+fuel-plugin-celebrer-+-379d534-+-Update server.pp
+
+fuel-plugin-celebrer-+-96d848b-+-Update init.pp
+
+fuel-plugin-celebrer-+-d4ccf8f-+-Update db.pp
+
+fuel-plugin-celebrer-+-a3cfcaa-+-Update server.pp
+
+fuel-plugin-celebrer-+-bd38467-+-Update agent.pp
+
+fuel-plugin-celebrer-+-99a9c8e-+-Update server.pp
+
+fuel-plugin-celebrer-+-6fc8181-+-Update server.pp
+
+fuel-plugin-celebrer-+-390efb9-+-Update server.pp
+
+fuel-plugin-celebrer-+-0c90150-+-Migrate to v2.0.0 FuelPlugin package version
+
+fuel-plugin-celebrer-+-69cd8b7-+-Initial version
+pmlc_cinder-+-eb00248-+-Initial commit
+pmlc_keystone-+-1503555-+-Add SSL options for admin and public endpoint
+
+pmlc_keystone-+-43efd9d-+-Initial commit
+pmlc_neutron-+-35b31d8-+-Fix typo in admin password setting
+
+pmlc_neutron-+-94c7334-+-Add certificate based authentication to APIC driver. Add agent poll interval of 60s rather than default 2s.
+
+pmlc_neutron-+-3bec102-+-Refactor module to use ini_setting rather than file_lines
+
+pmlc_neutron-+-1b4eac9-+-Initial commit
+pmlc_nova-+-3b1157b-+-Move live migration and image type out of parameter and into selector based on whether ceph is used or not
+
+pmlc_nova-+-fa6b7bf-+-This is a bit backwards, but default to true on use_ceph and inherit that in the params class to use with a selector for values.
+
+pmlc_nova-+-d47e457-+-This is a bit backwards, but default to true on use_ceph and inherit that in the params class to use with a selector for values.
+
+pmlc_nova-+-8c1c742-+-Fix typo in selector
+
+pmlc_nova-+-2cbe257-+-set use_ceph to true by default. fix typo
+
+pmlc_nova-+-9637a53-+-Add toggle for whether to use ceph or not
+
+pmlc_nova-+-92a0998-+-Initial commit
+profiles-+-07b3ef5-+-Set ordering
+
+profiles-+-72df64c-+-remove version parameter
+
+profiles-+-c9a683d-+-Initial commit
+puppet-deployapp-+-eef0284-+-Initial Commit
+puppet-foreman_proxy-+-f2927ce-+-initial commit
+puppet-haproxy-+-c409a09-+-Fix some, but by no means all, of puppet-lint's complaining
+
+puppet-haproxy-+-580e831-+-Commit spec tests for the haproxy module
+
+puppet-haproxy-+-01d46be-+-Use array in config class default
+
+puppet-haproxy-+-98aaa48-+-Ensure hasrestart parameter with haproxy service
+
+puppet-haproxy-+-c4799e5-+-Initial Commit
+puppet-manifests-+-879fb44-+-Use hiera lookup to get path to zuul layout
+
+puppet-manifests-+-2ad463e-+-Fix zuul configuration update script
+
+puppet-manifests-+-7a78f1e-+-Enabling non-conditional migration and syncdb for racks.
+
+puppet-manifests-+-7c21a7f-+-Use libvirt 1.2.12 on RHEL bases distros
+
+puppet-manifests-+-42f199d-+-Set Gerrit trigger configuration via jenkins_cli.
+
+puppet-manifests-+-bdd0861-+-Add missed centos7 image required by install tests
+
+puppet-manifests-+-57bf32b-+-Fix known_host creating for Zuul
+
+puppet-manifests-+-e9d2eb1-+-Serve Zuul Merger's Git repositories by Nginx
+
+puppet-manifests-+-3030df2-+-Set global jenkins configuration via jenkins_cli.
+
+puppet-manifests-+-168f1fa-+-Fix bug in apps:mirror
+
+puppet-manifests-+-2d3bc61-+-Fix problem with hiera keys for gerrit ssh server
+
+puppet-manifests-+-fb04cfd-+-Added kolla_build_tests parameter/block
+
+puppet-manifests-+-0583934-+-Fix for uwsgi::application installation
+
+puppet-manifests-+-9996a28-+-Fix for proper file declaration
+
+puppet-manifests-+-11305ef-+-Missed uwsgi declaration fix
+
+puppet-manifests-+-06037b2-+-Fix for missed directory /etc/racks/importers
+
+puppet-manifests-+-5feb88e-+-Ability to enable/disable package installation added
+
+puppet-manifests-+-1ce95e5-+-Revert "remove python-pbr module from manifests"
+
+puppet-manifests-+-1a297ce-+-remove python-pbr module from manifests
+
+puppet-manifests-+-1de84ae-+-Fix for new static path
+
+puppet-manifests-+-98664cd-+-Puppet module update according to new changes in racks
+
+puppet-manifests-+-6cc6930-+-Ensure to notify polkit on adding new rule file
+
+puppet-manifests-+-42c5df1-+-Added polkit rule for libvirt/jenkins on RHEL
+
+puppet-manifests-+-7a14899-+-Set Markup Formatter via jenkins_cli.
+
+puppet-manifests-+-1f7c31e-+-Merge "Moving lab-cz declaration to hiera + LDAP configuration fix"
+
+puppet-manifests-+-ac6da08-+-Fix for more secure permissions on config files
+
+puppet-manifests-+-daf0da1-+-Moving lab-cz declaration to hiera + LDAP configuration fix
+
+puppet-manifests-+-9989e82-+-Ensure to enable transmission daemon on RHEL
+
+puppet-manifests-+-75690f0-+-Small fixes in common class for RHEL,Centos support
+
+puppet-manifests-+-11af530-+-$hiera_hierarchy update according to osfamily fact use
+
+puppet-manifests-+-f56652c-+-Removing lpreports-related data from manifests
+
+puppet-manifests-+-c3b1ba2-+-Upgrade for firewall configuration on ns role
+
+puppet-manifests-+-b0e5c65-+-Added openssl-devel into run_tests for RHEL distros
+
+puppet-manifests-+-f4dbe47-+-MongoDB module update, removing unneccessary apps-class
+
+puppet-manifests-+-2d87611-+-Allow local connections as postgres user
+
+puppet-manifests-+-3473fff-+-Fix problem with installation order in gerrit
+
+puppet-manifests-+-1c32f4a-+-Fix gerrit replication configuration
+
+puppet-manifests-+-319deed-+-Cleanup unprintable garbage symbols from zuul module
+
+puppet-manifests-+-9b52fd0-+-Update zuul manifest
+
+puppet-manifests-+-1373e04-+-Allowing to enable cron puppet job not only for testing
+
+puppet-manifests-+-15e8192-+-Nginx settings update to default ones
+
+puppet-manifests-+-d2851fc-+-Set number of executors via hiera.
+
+puppet-manifests-+-11bc577-+-docstrings for puppet-manifests - part 12
+
+puppet-manifests-+-238890e-+-Yet another manifests update for RHEL/Centos support
+
+puppet-manifests-+-fc06a50-+-Change order for gitweb installation in gerrit
+
+puppet-manifests-+-27b65fa-+-Use 'pkgconfig' name for RHEL based distron
+
+puppet-manifests-+-52febad-+-docstrings for puppet-manifests - part 11
+
+puppet-manifests-+-9d2d282-+-docstrings for puppet-manifests - part 10
+
+puppet-manifests-+-b839fb8-+-docstrings for puppet-manifests - part 9
+
+puppet-manifests-+-e0bc6b4-+-docstrings for puppet-manifests - part 8
+
+puppet-manifests-+-c98032e-+-For rhel/centos distros rename pyyaml pkg to PyYAML
+
+puppet-manifests-+-705d079-+-Fix variable name in pxetool master redirect to https
+
+puppet-manifests-+-85aa342-+-Install python-dev on slave with iso build role
+
+puppet-manifests-+-bece8aa-+-fix wrong characters in puppet::params
+
+puppet-manifests-+-8fc6a95-+-docstrings for puppet-manifests - part 7
+
+puppet-manifests-+-22a3e40-+-add proper filter parser for libvirt qemu env logs
+
+puppet-manifests-+-2e16ed4-+-docstrings for puppet-manifests - part 6
+
+puppet-manifests-+-419e236-+-add proper filter for mysql slow log
+
+puppet-manifests-+-67129e4-+-LDAP group-related parameters for gerrit config
+
+puppet-manifests-+-ffa0e18-+-Removed build1.fuel-infra.org from site.pp
+
+puppet-manifests-+-ebfdb6c-+-Fix problem with displaying jenkins login form
+
+puppet-manifests-+-644f308-+-Fix utf8 problem with mastered installation with C locale
+
+puppet-manifests-+-cf06cdc-+-Fix for libvirt deployment on Ubuntu distro
+
+puppet-manifests-+-b18895e-+-docstrings for puppet-manifests - part 5
+
+puppet-manifests-+-f3ff43f-+-Ability to merge facts with hiera merge
+
+puppet-manifests-+-dcab554-+-Added two new puppet yum modules
+
+puppet-manifests-+-f439dde-+-Divide package names for Ubuntu and RHEL distro
+
+puppet-manifests-+-909e064-+-Add 'python-tox' pkg for every jenkins slave
+
+puppet-manifests-+-2e7ff2a-+-docstrings for puppet-manifests - part 2
+
+puppet-manifests-+-cb8c6fe-+-docstrings for puppet-manifests - part 3
+
+puppet-manifests-+-083bb24-+-Ensure proper pkgs for RHEL distros in ssh module
+
+puppet-manifests-+-74b82ce-+-Make logstash-forwarder optional during the deployment
+
+puppet-manifests-+-df956d7-+-docstrings for puppet-manifests - part 1
+
+puppet-manifests-+-3253173-+-Added manifests to configure Blackduck's server and client
+
+puppet-manifests-+-2bcb066-+-added new optional params to elastics output
+
+puppet-manifests-+-a686e85-+-Ability to manage 'auth.conf' added to puppet::master class
+
+puppet-manifests-+-02cfa17-+-Merge "docstrings for puppet-manifests - part 4"
+
+puppet-manifests-+-622aeae-+-Add xmlstarlet package for bats enabled slave nodes
+
+puppet-manifests-+-bd7cc95-+-added disable_symlinks options
+
+puppet-manifests-+-dbb55d3-+-Add docs location for pxetool
+
+puppet-manifests-+-267c078-+-Be able to specify workers number in elastic output
+
+puppet-manifests-+-55ae739-+-docstrings for puppet-manifests - part 4
+
+puppet-manifests-+-bcc6955-+-Passing more parameters to uwsgi::application()
+
+puppet-manifests-+-42cc140-+-Merge "Fix for proper permissions on nginx conf files"
+
+puppet-manifests-+-7085244-+-Fix for proper permissions on nginx conf files
+
+puppet-manifests-+-9deaa16-+-CRON jobs and static location for lpreports
+
+puppet-manifests-+-b8d82c8-+-Ability to set puppet run by CRON
+
+puppet-manifests-+-165f10e-+-Moving out listen_addr from libvirt hardcode
+
+puppet-manifests-+-d525801-+-added reverted env zabbix item to jenkins slave
+
+puppet-manifests-+-c308051-+-puppet manifests update for lpreports configuration
+
+puppet-manifests-+-57963de-+-Cleanup for unused legacy stuff
+
+puppet-manifests-+-ad6fcd5-+-Ability to specify secret_key added for django apps
+
+puppet-manifests-+-0c379a7-+-Missed template added + other lpreports module fixes
+
+puppet-manifests-+-d182658-+-cleaned deprecated node definition in site.pp
+
+puppet-manifests-+-d72e420-+-Add rewrite to https for pxetool master and enable ssl_only in ssl
+
+puppet-manifests-+-c79f048-+-Fix missing www_root directory in fuel_docs
+
+puppet-manifests-+-d62bd10-+-Rewrite all requests to specs.fuel-infra.org => specs.openstack.org
+
+puppet-manifests-+-ef6c975-+-lpreports puppet manifests added
+
+puppet-manifests-+-51b2fde-+-PXETool deployment manifests
+
+puppet-manifests-+-4783e91-+-Remove {::fqdn} from kibana-redirect's
+
+puppet-manifests-+-61a19e7-+-Location for serving docs as a static added
+
+puppet-manifests-+-593027d-+-Support for logs.fuel-infra.org service name in log storage
+
+puppet-manifests-+-220c656-+-Add config-zabbix-agent-ulimit-item to the common class
+
+puppet-manifests-+-7ecc456-+-fixed lock file in nailgun_demo
+
+puppet-manifests-+-9c76d5e-+-Revert "ssh_authorized_key cleanup before add behaviour implementation"
+
+puppet-manifests-+-450c8ab-+-added docker config to jenkins slave manifest
+
+puppet-manifests-+-f5c5907-+-fixes double declaration for nested virtualisation
+
+puppet-manifests-+-2ed5e43-+-Move bats package from infra-ci to fuel-ci
+
+puppet-manifests-+-14cb74e-+-Log storage puppetized manifests
+
+puppet-manifests-+-84b207c-+-separate certificates for registry nodes
+
+puppet-manifests-+-e09cbb3-+-Adding python-yaml and python-git to all slaves
+
+puppet-manifests-+-8cd0d75-+-Fix for missed .ssh dir for root user
+
+puppet-manifests-+-11e1b23-+-Remove ci-slaves from site.pp
+
+puppet-manifests-+-6d325e8-+-add dmesg monitor to fuel_project/common
+
+puppet-manifests-+-7c34a7f-+-ssh_authorized_key cleanup before add behaviour implementation
+
+puppet-manifests-+-66b5d8f-+-Fix for modprobe's missing arguments
+
+puppet-manifests-+-1e2a8f7-+-Adding stub for qemu=2.4 missed modprobe file
+
+puppet-manifests-+-314f0de-+-Custom error pages for jenkins master instance
+
+puppet-manifests-+-63440e0-+-MongoDB puppet manifests with example hiera role added
+
+puppet-manifests-+-f069a87-+-Removing recursion on chmoding for /var/www/mirror
+
+puppet-manifests-+-c129dc2-+-Fix for compability issue with new rsync+ssh scheme users
+
+puppet-manifests-+-da8dd1a-+-name update for config-zabbix-agent package
+
+puppet-manifests-+-43cb277-+-Mirror role moved to hiera
+
+puppet-manifests-+-c6c4852-+-Install libpcap-dev package on fuel-ci slave nodes
+
+puppet-manifests-+-91dee3f-+-rsync over SSH method for mirrors added
+
+puppet-manifests-+-a4a41b3-+-Motd banner moved to hiera
+
+puppet-manifests-+-88ca7db-+-Switch plugin sync to rsync over SSH
+
+puppet-manifests-+-7030593-+-ns role migration to hiera
+
+puppet-manifests-+-132c10e-+-changed main port from 5000 to 443
+
+puppet-manifests-+-5fa1ac4-+-Update gerrit module to be more closer to upstream
+
+puppet-manifests-+-10febc1-+-Remove obsolete install_label_dumper parameter
+
+puppet-manifests-+-ff24ebf-+-Static caching and cleanup for jenkins
+
+puppet-manifests-+-e4dea64-+-Static caching and "static" location name update
+
+puppet-manifests-+-df90c5e-+-Fix for definition to use to create pins
+
+puppet-manifests-+-c764c6c-+-Fix of error_pages location in fuel_stats
+
+puppet-manifests-+-e3ac44a-+-Manifests for etherpad added
+
+puppet-manifests-+-2f57bec-+-docker registry manifests
+
+puppet-manifests-+-4046fb1-+-demo - also use small static for SSl
+
+puppet-manifests-+-6a6b0db-+-Fix for ISO build broken dependencies
+
+puppet-manifests-+-55dba0a-+-demo minified
+
+puppet-manifests-+-4ba4ba7-+-demo firewall fix
+
+puppet-manifests-+-664caf5-+-Add jenkins slave for infra-ci
+
+puppet-manifests-+-915ece5-+-nailgun demo manifest upgrade
+
+puppet-manifests-+-3b10106-+-Moving tracker role to hiera
+
+puppet-manifests-+-7075165-+-Separating files and cron from importer settings
+
+puppet-manifests-+-4741b52-+-Increasing maintenance script running interval(for zabbix server)
+
+puppet-manifests-+-b664917-+-Add compression for console output from jenkins jobs
+
+puppet-manifests-+-3bbc3d5-+-Add zuul monitoring script for zabbix
+
+puppet-manifests-+-70e6fd4-+-Ability to add custom imports in settings added for django::application
+
+puppet-manifests-+-d5ac483-+-Reuse /var/run/lock dir for placing .lock files
+
+puppet-manifests-+-e62106e-+-Cleanup and mostly cosmetic changes
+
+puppet-manifests-+-cb0b620-+-Inventory tool puppet manifests added
+
+puppet-manifests-+-740179d-+-Fix error pages for fuel stats without ssl
+
+puppet-manifests-+-cbd7707-+-Typo fix in fuel_stats/manifests/collector.pp
+
+puppet-manifests-+-66f9e6c-+-Add master-node-uid to nginx log_format
+
+puppet-manifests-+-3f3c3a4-+-Add zlib1g{,-dev} pkgs as a requirement for ci jobs
+
+puppet-manifests-+-166f99f-+-Fix zuul status page
+
+puppet-manifests-+-4c41cef-+-cachers moved to hiera roles
+
+puppet-manifests-+-f521a59-+-Enable OOM Killer item zabbix check in common
+
+puppet-manifests-+-a961d31-+-Allow to install exact version of kernel package
+
+puppet-manifests-+-61de298-+-Add pyhton-lxml package to perestroika publisher
+
+puppet-manifests-+-c12a4d2-+-Removed 'sudoers_base' option from jenkins::slave module as not needed
+
+puppet-manifests-+-6394d6e-+-Remove unused variable sudoers_base
+
+puppet-manifests-+-809ac8f-+-Created 'zuul' module, created 'zuul' role
+
+puppet-manifests-+-e7a33d3-+-Remove unused variable in jenkins::slave
+
+puppet-manifests-+-c5da03d-+-Remove old known_hosts from jenkins_slave
+
+puppet-manifests-+-a0753a6-+-Redirect root of specs vhost to specific dir
+
+puppet-manifests-+-55d600e-+-Updated docs to include specs.fuel-infra.org vhost
+
+puppet-manifests-+-bccbc04-+-Updated "custom_scripts_slave" role in hiera and custom_scripts module
+
+puppet-manifests-+-e831efe-+-Atop interval update to 60 seconds
+
+puppet-manifests-+-e1a2c84-+-Small revert of fuel_project::jenkins::slave
+
+puppet-manifests-+-dcc7a3f-+-Typo fixes in fuel_stats::analytics
+
+puppet-manifests-+-c485840-+-Fix for proper dependencies
+
+puppet-manifests-+-a57f7ac-+-Zabbix maintenance script added.
+
+puppet-manifests-+-4943e9d-+-Update of 'python_jenkins_slave' role to run custom Python scripts in docker container
+
+puppet-manifests-+-e9b89cd-+-Add an option to disable puppet-manifests-update cronjob
+
+puppet-manifests-+-51133c4-+-Move error_pages in docs from location to server
+
+puppet-manifests-+-8205c4d-+-Fix for proper lockfiles usage
+
+puppet-manifests-+-805abb2-+-facter-facts package added to common, some packages moved to parameters
+
+puppet-manifests-+-cf7f44e-+-Changes in the partnerappliance class
+
+puppet-manifests-+-7ea6bc5-+-Move *_npm_packages lists into class variables
+
+puppet-manifests-+-8f2b441-+-Merge "TPI Labs: add build_fuel_plugins to jenkins slaves"
+
+puppet-manifests-+-a5dad7f-+-TPI Labs: add build_fuel_plugins to jenkins slaves
+
+puppet-manifests-+-22f5c97-+-TPI Labs: add packages required for vmware hostd
+
+puppet-manifests-+-f843c10-+-Added appliance class for "Certified Rack Level Appliance" project
+
+puppet-manifests-+-8729809-+-Add error pages for docs and fuel-stats
+
+puppet-manifests-+-88b7fef-+-Gerrit replication refactoring
+
+puppet-manifests-+-f26f1ca-+-Refactoring perestroika
+
+puppet-manifests-+-fd5c795-+-UWSGI support for lodgeit added
+
+puppet-manifests-+-134ba07-+-Added package 'python3-dev' in 'verify_fuel_web' of 'fuel_project::jenkins::slave'
+
+puppet-manifests-+-1d2846e-+-Avoidance of duplication for '::fuel_project::common' class in 'fuel_project::jenkins::slave'
+
+puppet-manifests-+-7402ddc-+-Move keys from parameters to class
+
+puppet-manifests-+-0efed8f-+-Custom error pages for paste
+
+puppet-manifests-+-02eecd2-+-Use hiera hash to recieve ssh keys
+
+puppet-manifests-+-d3380e0-+-Created 'perestorika' classes in 'fuel_project::role':
+
+puppet-manifests-+-9f39077-+-Ability to set custom logo for paste added
+
+puppet-manifests-+-c6c0c93-+-Paste pupet manifests initial release
+
+puppet-manifests-+-6cbb04b-+-Remove jenkins swarm slaves from site.pp
+
+puppet-manifests-+-f772284-+-Merge "Randmness added to quering for ssh keys from IT's LDAP"
+
+puppet-manifests-+-f9cd1d0-+-Randmness added to quering for ssh keys from IT's LDAP
+
+puppet-manifests-+-b67bf45-+-Ability to create additional parameters added
+
+puppet-manifests-+-8510915-+-Added missed package "yum-utils" to install on the servers to run install tests
+
+puppet-manifests-+-0578275-+-Added parameter "libvirt_default_network" to enable libvirt's "default" network after manifests implementing
+
+puppet-manifests-+-19415c3-+-Add alias for fuel-qa on docs.fuel-infra.org
+
+puppet-manifests-+-fafd07c-+-Added bats package for later usage by infra-ci
+
+puppet-manifests-+-7e6ae39-+-Implement pip packages mirror
+
+puppet-manifests-+-2c81e4d-+-Implement npm_mirror role
+
+puppet-manifests-+-332f6d1-+-Add default pip_opts in fuel_stats module
+
+puppet-manifests-+-37ff417-+-Moving errata base to django::application module
+
+puppet-manifests-+-994a3e5-+-Error pages added to errata and fix in landing page
+
+puppet-manifests-+-2b3a7c6-+-Add requirements for isolated install jenkins-slave node with build_iso role
+
+puppet-manifests-+-2afaac3-+-Move fuel_docs to new scheme
+
+puppet-manifests-+-c3c25df-+-Create rubygems mirror from rubygems.org
+
+puppet-manifests-+-4ef08f2-+-Fix redirect from fuel-dev to docs.fuel-infra.org
+
+puppet-manifests-+-546b47b-+-Changed template of the "packtest*" nodes
+
+puppet-manifests-+-3793256-+-Remove fuel_project::apps::firewall from common
+
+puppet-manifests-+-de5e443-+-Fix issues with known_hosts
+
+puppet-manifests-+-9e4fb41-+-Implement selenium test on fuel-ci slaves nodes
+
+puppet-manifests-+-758894f-+-Fixed class 'fuel_project::jenkins::slave':
+
+puppet-manifests-+-77fc48c-+-Merge "Allow to pass array to ssh::known_hosts"
+
+puppet-manifests-+-ca831cd-+-Added new record for the perestroika-slaveXX nodes
+
+puppet-manifests-+-c1af7e8-+-Allow to pass array to ssh::known_hosts
+
+puppet-manifests-+-9546519-+-Refactored anonymous statisctics
+
+puppet-manifests-+-6e29fb6-+-Stupid typo fixes ;)
+
+puppet-manifests-+-902077b-+-Behaviour update for new hosts without $external_host == true
+
+puppet-manifests-+-98390cb-+-Moved all nodes which have statement hiera_classes to single definition
+
+puppet-manifests-+-1393743-+-Errata nodes hostnames updated in site.pp
+
+puppet-manifests-+-ee4c457-+-Updated mirror app class path
+
+puppet-manifests-+-d191b3b-+-Replace the puppetlabs-bacula module
+
+puppet-manifests-+-e791283-+-Implement web-sharing node for publishing jenkins jobs' logs
+
+puppet-manifests-+-ad64f12-+-Provide ability to configure sftp
+
+puppet-manifests-+-43efef4-+-Access-Control-Allow-Origin header on static.fuel-infra.org
+
+puppet-manifests-+-aa406af-+-Merge "Add redirect for fuel-dev to communtity site"
+
+puppet-manifests-+-a272b63-+-verify_fuel_web role requres postgresql-server-dev-all package
+
+puppet-manifests-+-ab099e2-+-Add redirect for fuel-dev to communtity site
+
+puppet-manifests-+-801686a-+-Added sudo class and tcpdump usage
+
+puppet-manifests-+-5eaf920-+-Move filter json to separate file and load it from file.
+
+puppet-manifests-+-3e07cb4-+-Fuel-stats ssl fix
+
+puppet-manifests-+-1f0acf1-+-Mailman apache configuration added
+
+puppet-manifests-+-8760a21-+-Adding docker-builder dependencies.
+
+puppet-manifests-+-54b5d91-+-Fix for proper if not check in the part of aliases detection
+
+puppet-manifests-+-d2624b4-+-Google counter ability to use added
+
+puppet-manifests-+-6ae3f4a-+-Splitting errata hosts and starting to use hiera
+
+puppet-manifests-+-65bd03c-+-Fuel Infra Error pages for landing page
+
+puppet-manifests-+-f76f5b7-+-Added two new hosts
+
+puppet-manifests-+-0fcb87a-+-Update of avaiable locations for fuel-docs
+
+puppet-manifests-+-d270ac2-+-Added filtering releases option for last collector
+
+puppet-manifests-+-12fd01c-+-We need to be sure that target directory for alert script exist
+
+puppet-manifests-+-4396865-+-Libjpeg-dev added to verify_fuel_docs packages lst
+
+puppet-manifests-+-79d7447-+-Merge "New mirror-pkgs role"
+
+puppet-manifests-+-cdfa0d5-+-New mirror-pkgs role
+
+puppet-manifests-+-6cac56b-+-Fix for redirect location
+
+puppet-manifests-+-2268d50-+-Aliases for www.fuel-infra.org
+
+puppet-manifests-+-61878a2-+-Fix /etc/timezone file
+
+puppet-manifests-+-cef3e33-+-Fix naming for patching-slave nodes
+
+puppet-manifests-+-ce99701-+-Jenkins_cli modifications
+
+puppet-manifests-+-6842c62-+-Added hosts for statistics for systest
+
+puppet-manifests-+-968b9d0-+-Monitor mysql instances using zabbix
+
+puppet-manifests-+-9f8f0ba-+-mailman hosts added
+
+puppet-manifests-+-10ecaef-+-Added 'osci_bulder' option in 'fuel_project::jenkins::slave' module.
+
+puppet-manifests-+-1c8c39e-+-Add logrotate delay option for upstart logs
+
+puppet-manifests-+-de7d340-+-zabbkit notification alert script added
+
+puppet-manifests-+-0aada2d-+-Add patching-ci slaves definition
+
+puppet-manifests-+-9090f5c-+-Moving web configuration to hiera
+
+puppet-manifests-+-aa952b0-+-Merge "Be able to monitor lpupdatebug log using zabbix"
+
+puppet-manifests-+-f20a729-+-Demo deployment fixes
+
+puppet-manifests-+-cdb8b2a-+-Be able to monitor lpupdatebug log using zabbix
+
+puppet-manifests-+-e9848b2-+-Merge "Fixing permissions for directory contains gitrevision.txt for monitoring purposes"
+
+puppet-manifests-+-2914d76-+-Merge "Add patching-jenkins node definition"
+
+puppet-manifests-+-32abe55-+-Fixing permissions for directory contains gitrevision.txt for monitoring purposes
+
+puppet-manifests-+-4a59ebb-+-Added new locations for the "seed" servers
+
+puppet-manifests-+-3da3c4b-+-Add patching-jenkins node definition
+
+puppet-manifests-+-75e65f8-+-Install devscripts package on CI slaves which build ISO
+
+puppet-manifests-+-c1e34c5-+-Setting more permissive chmod to /var/lib/puppet/gitrevision.txt
+
+puppet-manifests-+-25e038d-+-Re-arange parameters definition
+
+puppet-manifests-+-3a87567-+-Make code closer to coding style requirements
+
+puppet-manifests-+-966627f-+-Remove value from ruby_version variable
+
+puppet-manifests-+-47fd5b5-+-Merge "Bump Ruby version to 2.1.5"
+
+puppet-manifests-+-dd6ed07-+-Refactoring fuel-stats
+
+puppet-manifests-+-075cdfe-+-Add carriage return for /etc/hostname
+
+puppet-manifests-+-f01712e-+-Bump Ruby version to 2.1.5
+
+puppet-manifests-+-53e05fe-+-Logging and redirects for docs.f-i|m added
+
+puppet-manifests-+-682356e-+-Remove unnecessary Zabbix Agent fix
+
+puppet-manifests-+-0377989-+-Added update_status parameter to lpupdatebug
+
+puppet-manifests-+-8f5db1d-+-Refactoring of seed instance
+
+puppet-manifests-+-99e19de-+-Add verify_jenkins_jobs option to jenkins slave manifests
+
+puppet-manifests-+-3c758c9-+-Ensure we have iso/ directory in jenkins workspace
+
+puppet-manifests-+-90eb918-+-Set vm.swappiness value to zero for nodes running systest
+
+puppet-manifests-+-3fad4ad-+-Fix puppetmaster node installtion from scratch
+
+puppet-manifests-+-b31e9d2-+-Sort variables definition in alphabetical order for jenkins slave
+
+puppet-manifests-+-eeca3b1-+-Allow to provide auth mode for gerrit node
+
+puppet-manifests-+-af9af63-+-Added projects var into config file
+
+puppet-manifests-+-8a8ff52-+-New pattern for the Fuel Gerrit hosts added to the manifests
+
+puppet-manifests-+-3419ff0-+-Install packages required for building packages on CI slaves
+
+puppet-manifests-+-29c954e-+-Fixing deeper hash merging for firewall
+
+puppet-manifests-+-f5ae952-+-Fix for github poller cronjob output
+
+puppet-manifests-+-9931f3f-+-Moving test.local zone to hiera
+
+puppet-manifests-+-01c4b1a-+-Zabbix instances regex fixed
+
+puppet-manifests-+-987c3a5-+-Fix for default attributes values in partnershare class
+
+puppet-manifests-+-3ba1c9f-+-Setting compression for js and css files
+
+puppet-manifests-+-2e1e45b-+-SSL fixes for static vhost
+
+puppet-manifests-+-1ff4ff2-+-Fixup for anon stat modules
+
+puppet-manifests-+-cb8e667-+-Swapping zbx* stuff to new hiera class include scheme
+
+puppet-manifests-+-8798e60-+-Merge "Errata Base modules added"
+
+puppet-manifests-+-d264a68-+-Fix for default firewall enable flag value
+
+puppet-manifests-+-af9a0ec-+-Errata Base modules added
+
+puppet-manifests-+-86cb22d-+-Refactoring of seed role
+
+puppet-manifests-+-67bd3b0-+-vhost for static.fuel-infra.org added
+
+puppet-manifests-+-1a82307-+-Control which specific devops tool to deploy
+
+puppet-manifests-+-440fab9-+-Fix for logs attributes
+
+puppet-manifests-+-9485f38-+-Fix bridging setup on node deployment
+
+puppet-manifests-+-935dfa4-+-Improve rvm module usage
+
+puppet-manifests-+-90a33b8-+-xorriso added for proper EUFI ISO builds
+
+puppet-manifests-+-6b86196-+-Changes in 'osci_test' option of 'fuel project::jenkins::slave' class:
+
+puppet-manifests-+-cf19f0f-+-Merge "LDAP support added"
+
+puppet-manifests-+-7d5509f-+-Add infra-ci and fuel-ci jenkins master nodes to site.pp
+
+puppet-manifests-+-4535896-+-LDAP support added
+
+puppet-manifests-+-c3d5bc2-+-Added new "infra-ci*" pattern for the infra-ci slaves
+
+puppet-manifests-+-d647ec6-+-Changed pattern for the names of CI-slaves
+
+puppet-manifests-+-a1971a2-+-Remove unused pip inclusion
+
+puppet-manifests-+-b4584db-+-Fix for fuel-docs #4, wrong variable name
+
+puppet-manifests-+-ff41875-+-Fix for fuel-docs #3, ssl_only added, https port open
+
+puppet-manifests-+-fc6aeb5-+-Fix for fuel-docs #2, ssl issues
+
+puppet-manifests-+-e472b4f-+-Fix for fuel-docs #2
+
+puppet-manifests-+-c8d544c-+-Fix for fuel-docs
+
+puppet-manifests-+-e71bc21-+-Merge "Added non-root account for fuel-docs"
+
+puppet-manifests-+-309dada-+-Merge "Remove unneeded pip module"
+
+puppet-manifests-+-0fc389a-+-Added non-root account for fuel-docs
+
+puppet-manifests-+-1a03bba-+-Support nodes in *.infra.mirantis.net zone
+
+puppet-manifests-+-ea64d8e-+-Redirects for fuel-docs
+
+puppet-manifests-+-009d414-+-Make sure net.bridge.* is set after reboot
+
+puppet-manifests-+-59824ce-+-Improve local MTA management
+
+puppet-manifests-+-381c9f6-+-Make sure jenkins_cli is ran with running service
+
+puppet-manifests-+-e1b5b07-+-Update service name for lpupdatebug script
+
+puppet-manifests-+-23a11cf-+-Remove unneeded pip module
+
+puppet-manifests-+-3905cb4-+-New racktables module and fuel_project::racktables
+
+puppet-manifests-+-a800ceb-+-django::application definition added for django apps setting up
+
+puppet-manifests-+-5903df6-+-Add lpupdatebug to devops_tools.pp manifest
+
+puppet-manifests-+-4a1152e-+-Added new 'tools' devops nodes definition
+
+puppet-manifests-+-9f29902-+-Tracker role added + hostlist updated
+
+puppet-manifests-+-02948e4-+-Fix btsync configuration on TPI labs
+
+puppet-manifests-+-b1bedea-+-TPI Labs: changed default rsync ip address
+
+puppet-manifests-+-4f33ad8-+-TPI labs: change sudoers build_iso config
+
+puppet-manifests-+-daeb04c-+-Add vmware user for pam authorization
+
+puppet-manifests-+-c5819cd-+-Merge "Ability to set apps to load added"
+
+puppet-manifests-+-68d1923-+-Misc changes in site.pp
+
+puppet-manifests-+-7f77a76-+-Remove unnecessary check
+
+puppet-manifests-+-0feca67-+-New NODE for sharing files to partners
+
+puppet-manifests-+-7cc6093-+-Ability to set apps to load added
+
+puppet-manifests-+-de705b5-+-Minor changes in Jenkins master and jenkins_cli
+
+puppet-manifests-+-f37f5c3-+-Fixes deployment problem of new Poznan mirror
+
+puppet-manifests-+-d56bc28-+-Merge "Change of logic in fuel_stats:analytics"
+
+puppet-manifests-+-32b40c6-+-Added new node for mirror in Poznan location
+
+puppet-manifests-+-5937142-+-Added firewall rules for mysql and bacula
+
+puppet-manifests-+-4b377d1-+-Added the "defaultMaxClauseCount" option
+
+puppet-manifests-+-4c8495f-+-Explicitly define fqdn in /etc/mailname
+
+puppet-manifests-+-c766526-+-Change of logic in fuel_stats:analytics
+
+puppet-manifests-+-e57815e-+-Merge "Provide environment for running packages requirements tests"
+
+puppet-manifests-+-634bf26-+-Merge "Fix fakeui demo site deployment"
+
+puppet-manifests-+-fc336c8-+-Merge "Refactor fuel iso sharing over http"
+
+puppet-manifests-+-1d0ca8a-+-Fix fakeui demo site deployment
+
+puppet-manifests-+-4ba34eb-+-Refactor fuel iso sharing over http
+
+puppet-manifests-+-b5580f7-+-Refactor seedcleaner usage
+
+puppet-manifests-+-f11d682-+-Fix pkgs-ci.fuel-infra.org jenkins master definition
+
+puppet-manifests-+-6d3bd69-+-Provide environment for running packages requirements tests
+
+puppet-manifests-+-098b995-+-Define function for defining ssl certificates from hiera
+
+puppet-manifests-+-d682ce7-+-Install gulp on CI-slaves
+
+puppet-manifests-+-0fb7c6e-+-Add packages for TPI labs
+
+puppet-manifests-+-c14925e-+-Firewall support for NS role
+
+puppet-manifests-+-8b86ec5-+-Jenkins master authorization fixes
+
+puppet-manifests-+-45deb77-+-Implement seed-cleanup on seed servers
+
+puppet-manifests-+-093a9b7-+-Zabbix frontend SSL support
+
+puppet-manifests-+-751faa3-+-Install VMWare environment on TPI labs
+
+puppet-manifests-+-e2e6ccc-+-Merge "Added "bacula" puppet module"
+
+puppet-manifests-+-b10da3c-+-Fixed 'osci_test' option in 'fuel_project::jenkins::slave' class:
+
+puppet-manifests-+-51de5e5-+-Added "bacula" puppet module
+
+puppet-manifests-+-68d80b5-+-Fix for rndc permission problems
+
+puppet-manifests-+-42a9877-+-Allow to prepare sources for building packages on jenkins slave
+
+puppet-manifests-+-7a682ee-+-Bind monitoring items added
+
+puppet-manifests-+-a034f77-+-Fixed typo in variable name of "hideci" module
+
+puppet-manifests-+-4ab9528-+-Merge "Fix rvm permissions for fpm gem"
+
+puppet-manifests-+-ecd8809-+-Removed duplicate definition of "/home/jenkins/.ssh" directory from deploying of osci jenkins slaves
+
+puppet-manifests-+-5994263-+-Zabbix MySQL replication support
+
+puppet-manifests-+-a87e4f9-+-Added missed parameter "external_host" to gerrit hosts
+
+puppet-manifests-+-aa10ab7-+-Do not install mock package on slaves
+
+puppet-manifests-+-e8cbfcb-+-ISO Vault virtual host added
+
+puppet-manifests-+-d0b970e-+-Add ssh key & username param for lpupdatebug
+
+puppet-manifests-+-a7589bf-+-Allow to control tries number for set_security
+
+puppet-manifests-+-4683905-+-Add fuel-ci jenkins master(s) to site.pp
+
+puppet-manifests-+-7fd36e0-+-Move tpi nfsclient from fuel_project
+
+puppet-manifests-+-b1f7171-+-Fix hostname for lab-cz.vm.mirantis.net
+
+puppet-manifests-+-60bb4d6-+-Fix rvm permissions for fpm gem
+
+puppet-manifests-+-86e2188-+-moving zbxservers to devops.mirantis.net
+
+puppet-manifests-+-b64f020-+-Check and fix for hostname if it's properly set added
+
+puppet-manifests-+-ab98fa3-+-tracker01-(mnv|bud|msk) added + cleanup on ::fuel_project::common invokation
+
+puppet-manifests-+-f56f732-+-Mirror role added to storage servers
+
+puppet-manifests-+-a6557f8-+-Merge "Added debmirror package required to build new Ubuntu 14.04 ISO"
+
+puppet-manifests-+-60bb098-+-Added replication to manifests
+
+puppet-manifests-+-9c9b61e-+-Merge "Fixing of missing extension"
+
+puppet-manifests-+-5d4851e-+-Merge "Change login expiration period and permit remote plugin reload"
+
+puppet-manifests-+-7da53bc-+-Fixing of missing extension
+
+puppet-manifests-+-5c077c9-+-Fixed firewall rules for docs.mirantis.com
+
+puppet-manifests-+-a9384b7-+-Adding autoupdating script for ns
+
+puppet-manifests-+-03cbeea-+-Added local ssh keys feature to jenkins slave
+
+puppet-manifests-+-fa04d93-+-Changed name to docs.fuel-infra.org
+
+puppet-manifests-+-3112deb-+-Remove spacewalk because of cancellation
+
+puppet-manifests-+-fd8ce86-+-Change login expiration period and permit remote plugin reload
+
+puppet-manifests-+-47f8ec6-+-Fixes to thias-bind puppet module
+
+puppet-manifests-+-a482dc0-+-New host for fuel-docs
+
+puppet-manifests-+-ef29911-+-Typo fix
+
+puppet-manifests-+-d62a662-+-Added debmirror package required to build new Ubuntu 14.04 ISO
+
+puppet-manifests-+-b1cc921-+-Merge "Added limit-conn parameter for anonymous statistics"
+
+puppet-manifests-+-7e5f1d5-+-Adding plugins repository to configuration of landing_page
+
+puppet-manifests-+-66cf25a-+-Added limit-conn parameter for anonymous statistics
+
+puppet-manifests-+-aa00c26-+-Merge "storage01 added"
+
+puppet-manifests-+-687839d-+-storage01 added
+
+puppet-manifests-+-ae2c716-+-Repo building packages added
+
+puppet-manifests-+-69ca1c3-+-Added new group of hosts
+
+puppet-manifests-+-5b70a9c-+-Added new servers
+
+puppet-manifests-+-4ea6dd9-+-NS servers and bind configuration added
+
+puppet-manifests-+-a99cbb4-+-generic improvements for overall quality
+
+puppet-manifests-+-a4c974c-+-Adding SMART check items
+
+puppet-manifests-+-662b3a7-+-Fix labels nginx location for jenkins master
+
+puppet-manifests-+-5b4c8fb-+-Merge "Mock usage refactoring"
+
+puppet-manifests-+-7e50deb-+-Add Jenkins slave for docs
+
+puppet-manifests-+-9b95e8b-+-Add config for US jenkin product slaves
+
+puppet-manifests-+-48b7603-+-Mock usage refactoring
+
+puppet-manifests-+-2c871fd-+-Enable LP update on (Closes|Related)-Bug
+
+puppet-manifests-+-9f5937a-+-Merge "Disabled default chmod on TPI rsyncd"
+
+puppet-manifests-+-06c0e3d-+-Merge "Add sudo rights for tpi group on tpi labs"
+
+puppet-manifests-+-a29b3b4-+-Merge "Enable sudo on jenkins slaves for fuel-core-team"
+
+puppet-manifests-+-39b1110-+-Install pigz for mock
+
+puppet-manifests-+-69f7ba5-+-Enable sudo on jenkins slaves for fuel-core-team
+
+puppet-manifests-+-3a3b354-+-Add mirror-pkgs.vm.mirantis.net node
+
+puppet-manifests-+-c3d70c2-+-Add sudo rights for tpi group on tpi labs
+
+puppet-manifests-+-ff8978e-+-Merge "Extend fuel_project::mirror to be more flexible"
+
+puppet-manifests-+-1750e31-+-Disabled default chmod on TPI rsyncd
+
+puppet-manifests-+-5fcb499-+-New class for TPI puppet master
+
+puppet-manifests-+-69d70e6-+-Merge "Generalization of TPI nfs resources"
+
+puppet-manifests-+-d527a2f-+-Fix pxetool installation
+
+puppet-manifests-+-7f472ae-+-Fix osc package installation
+
+puppet-manifests-+-1366b63-+-Extend fuel_project::mirror to be more flexible
+
+puppet-manifests-+-35cc5b4-+-Added 'osci_test' option in 'fuel_project::jenkins::slave'.
+
+puppet-manifests-+-7e1820b-+-Move gerrit configuration to fuel_project::gerrit
+
+puppet-manifests-+-ef82a19-+-Add option to not overwrite jenkins authorization matrix
+
+puppet-manifests-+-4e6598f-+-Generalization of TPI nfs resources
+
+puppet-manifests-+-56fceff-+-Fix installation pxetool without puppet master
+
+puppet-manifests-+-4890f9f-+-Allow MTA to work only for local delivery
+
+puppet-manifests-+-cefe034-+-Add slave for jenkins master testing
+
+puppet-manifests-+-1b4befd-+-Adding docs landing page
+
+puppet-manifests-+-8055a49-+-Fix for test utility location in cronjob
+
+puppet-manifests-+-4739426-+-Merge "Make sure www root dir exists"
+
+puppet-manifests-+-132bb45-+-Enabling ::fuel_project::nginx for jenkins slaves
+
+puppet-manifests-+-8d71744-+-Make sure www root dir exists
+
+puppet-manifests-+-bc1184a-+-Adding log sharing virtual host
+
+puppet-manifests-+-baf6d9d-+-Install required packages for devops env
+
+puppet-manifests-+-5b5cab6-+-Install python-virtualenv for system tests
+
+puppet-manifests-+-9058653-+-Merge "FIXME cleanups"
+
+puppet-manifests-+-98267c9-+-Merge "Fix for set_security ldap"
+
+puppet-manifests-+-601ca29-+-FIXME cleanups
+
+puppet-manifests-+-de9b4cf-+-Prevent unknown function basename
+
+puppet-manifests-+-78e5f37-+-Merge "Added new host"
+
+puppet-manifests-+-02c440f-+-Fix label dumper nginx location in jenkins master
+
+puppet-manifests-+-f9d7c9c-+-Added new host
+
+puppet-manifests-+-325b827-+-Fix for set_security ldap
+
+puppet-manifests-+-3aef0d5-+-add hideci to manifests
+
+puppet-manifests-+-5c1bffb-+-Typo fix in label_dumper_destpath
+
+puppet-manifests-+-35ec082-+-Merge "Fix jenkins master nginx redirect"
+
+puppet-manifests-+-4b42f9c-+-Added new manifests for "python-lpbugmanage" script
+
+puppet-manifests-+-9a6679b-+-Fix for proper file invocation
+
+puppet-manifests-+-f87c4fd-+-Fix jenkins master nginx redirect
+
+puppet-manifests-+-7e5306a-+-Merge "Add jenkins master testing node"
+
+puppet-manifests-+-f25647f-+-Merge "mock added to slaves running tests"
+
+puppet-manifests-+-76c5fb6-+-Add jenkins master testing node
+
+puppet-manifests-+-f05d4a2-+-Fix for legacy parameter and cleanup
+
+puppet-manifests-+-bc4f287-+-mock added to slaves running tests
+
+puppet-manifests-+-a089e5e-+-zbxserver nodes added
+
+puppet-manifests-+-8d5d2a8-+-Merge "Enabled shared storage dir on TPI hosts"
+
+puppet-manifests-+-563d9c6-+-Jenkins Master sandbox - def nodes & ldap
+
+puppet-manifests-+-0006dad-+-Removing virtualenv creation from manifests side
+
+puppet-manifests-+-a96b58e-+-Enabled shared storage dir on TPI hosts
+
+puppet-manifests-+-21e6c4f-+-Enabled autofs user homes on TPI hosts
+
+puppet-manifests-+-d1ca31e-+-Fix for fuel-stats collector firewall
+
+puppet-manifests-+-62f273b-+-Merge "Putting manifests revision to static file"
+
+puppet-manifests-+-c5c09c7-+-Merge "Added alertscript definition and slack alert script"
+
+puppet-manifests-+-cd1feea-+-Putting manifests revision to static file
+
+puppet-manifests-+-4936018-+-Adding ability to set ttl for each directory separately
+
+puppet-manifests-+-9b2902f-+-Merge "Removing unnecessary virtual::user invocation"
+
+puppet-manifests-+-00eb67d-+-Fix for osfamily choises
+
+puppet-manifests-+-0b32748-+-Removing unnecessary virtual::user invocation
+
+puppet-manifests-+-96998df-+-Merge "Add chrome for stackforge-verify-fuel-web-selenium"
+
+puppet-manifests-+-b9827ba-+-Added alertscript definition and slack alert script
+
+puppet-manifests-+-c6da985-+-Syslinux added to iso build packages list
+
+puppet-manifests-+-dc7bab5-+-Merge "Label dumper added"
+
+puppet-manifests-+-1c58a20-+-Fix for missed dependency
+
+puppet-manifests-+-36a9a4e-+-Moving to python-devops in virtualenvs
+
+puppet-manifests-+-1af0789-+-Fuel-stats analytics refactor and new features
+
+puppet-manifests-+-6b98085-+-Changing naming chema for anonymous statictisc servers
+
+puppet-manifests-+-e109075-+-Separate class for tpi storage servers
+
+puppet-manifests-+-b12c628-+-Add chrome for stackforge-verify-fuel-web-selenium
+
+puppet-manifests-+-7f5302f-+-Merge "Make swarm plugin config readable for Jenkins"
+
+puppet-manifests-+-2600b14-+-Useless fuel_project::landing_page class removed
+
+puppet-manifests-+-ee11db0-+-Make swarm plugin config readable for Jenkins
+
+puppet-manifests-+-aebba0e-+-Label dumper added
+
+puppet-manifests-+-bfcbac9-+-Added python libs required for jenkins cleaning job
+
+puppet-manifests-+-8760f96-+-Queue length zabbix check for jenkins added
+
+puppet-manifests-+-12db8df-+-Basic CentOS 6 support, zabbix::item template support
+
+puppet-manifests-+-f621770-+-Merge "Adding SSL certificate check(expiration check)"
+
+puppet-manifests-+-852075d-+-Merge "::pxetool refactoring"
+
+puppet-manifests-+-cd6dd29-+-Additing revision logging
+
+puppet-manifests-+-1c622b8-+-::pxetool refactoring
+
+puppet-manifests-+-8e4a891-+-Adding SSL certificate check(expiration check)
+
+puppet-manifests-+-9d7509e-+-Adding obs-1.mirantis.com - new OSCI OBS instance
+
+puppet-manifests-+-ee23c18-+-Add standard 80 port redirection to 8000
+
+puppet-manifests-+-25636f4-+-Starting using custom facts
+
+puppet-manifests-+-412f56d-+-Merge "Fix for wrong nginx rewrite on jenkins master"
+
+puppet-manifests-+-2e76ae3-+-Refactoring and legacy cleanups
+
+puppet-manifests-+-bfe92d3-+-PXETool template packages support added
+
+puppet-manifests-+-739018f-+-Fix for pxetool manifests logic(incorrect execution order)
+
+puppet-manifests-+-c151608-+-Merge "Added definition for tpi jenkins master"
+
+puppet-manifests-+-22097f5-+-Merge "Config path updated for pxetool, log attributes fixed"
+
+puppet-manifests-+-9323d68-+-Merge "Add python thread support to demo node"
+
+puppet-manifests-+-d05ebc8-+-Config path updated for pxetool, log attributes fixed
+
+puppet-manifests-+-8702c24-+-Fix for wrong nginx rewrite on jenkins master
+
+puppet-manifests-+-a9bbe56-+-Added definition for tpi jenkins master
+
+puppet-manifests-+-915bc55-+-Adding parameters for nginx logs and log format
+
+puppet-manifests-+-c64c749-+-Merge "Added ldap configuration for TPI hosts"
+
+puppet-manifests-+-243c244-+-Merge "Clean only fuel-* artifacts"
+
+puppet-manifests-+-3b5d2ed-+-Added ldap configuration for TPI hosts
+
+puppet-manifests-+-e3ceead-+-Clean only fuel-* artifacts
+
+puppet-manifests-+-ece6bf5-+-Add python thread support to demo node
+
+puppet-manifests-+-1361ca7-+-Add support for external mongodb environment
+
+puppet-manifests-+-fd95ffe-+-Merge "Move nginx zabbix monitoring staff to nginx stub_status"
+
+puppet-manifests-+-57d87bb-+-Merge "Add packages needed for tasks graph check"
+
+puppet-manifests-+-5acaf5f-+-Merge "Add custom sudoers configuration for tpi labs"
+
+puppet-manifests-+-dbb4422-+-Move nginx zabbix monitoring staff to nginx stub_status
+
+puppet-manifests-+-9fecfe3-+-Add packages needed for tasks graph check
+
+puppet-manifests-+-74c26d5-+-Adding format_log attribute to frontend class.
+
+puppet-manifests-+-c9ba7a9-+-Added new host
+
+puppet-manifests-+-2107969-+-Merge "Fix puppet parser warning issue (Unrecognised escape sequence)"
+
+puppet-manifests-+-ece2a4b-+-Merge "FIX: fuel-stats-analytics dependencies"
+
+puppet-manifests-+-9084276-+-FIX: fuel-stats-analytics dependencies
+
+puppet-manifests-+-1facac3-+-Fix puppet parser warning issue (Unrecognised escape sequence)
+
+puppet-manifests-+-def1593-+-Add custom sudoers configuration for tpi labs
+
+puppet-manifests-+-1533679-+-Nginx zabbix items added
+
+puppet-manifests-+-11eac90-+-Merge "Added testing servers of Fuel Gerrit"
+
+puppet-manifests-+-0f73b91-+-Added testing servers of Fuel Gerrit
+
+puppet-manifests-+-6bd98db-+-Add texlive-font-utils to docs requirements
+
+puppet-manifests-+-674e533-+-Updated config location, nginx log format = proxy
+
+puppet-manifests-+-21c5ac0-+-FIX: anon stats incorrect parameter apply_firewall_rules
+
+puppet-manifests-+-87f955f-+-Merge "Disable transparent hugepage defragmentation on TPI hosts"
+
+puppet-manifests-+-782a110-+-FIX: Remove commercial param
+
+puppet-manifests-+-ccad433-+-Remove gerrit test configuration until getting stable gerrit
+
+puppet-manifests-+-cee0a9b-+-Merge "Fix landing_page updater issues:"
+
+puppet-manifests-+-a645924-+-Fix landing_page updater issues:
+
+puppet-manifests-+-8ac4e0c-+-Custom facts definition created
+
+puppet-manifests-+-1b507c5-+-Disable transparent hugepage defragmentation on TPI hosts
+
+puppet-manifests-+-e6832f8-+-Fix for duplicate declaration of landing_page::updater.
+
+puppet-manifests-+-28c5ecd-+-Fix verify_fuel_stats "role"
+
+puppet-manifests-+-08c9882-+-Landing page support added
+
+puppet-manifests-+-5d9e27a-+-Merge "Add selenium option for fuel-web"
+
+puppet-manifests-+-1ec7ac2-+-Merge "Implementation of Demo node."
+
+puppet-manifests-+-2530dd7-+-Merge "Create fuelweb-iso folder for publishing artifacts"
+
+puppet-manifests-+-79134dc-+-Merge "SSL support for Jenkins Swarm"
+
+puppet-manifests-+-cf8f710-+-Manifests autoupdate for puppet master
+
+puppet-manifests-+-48cd63c-+-Create fuelweb-iso folder for publishing artifacts
+
+puppet-manifests-+-22bdd61-+-Implementation of Demo node.
+
+puppet-manifests-+-70d037c-+-Create ostf database for verify-fuel-ostf job
+
+puppet-manifests-+-5025f15-+-SSL support for Jenkins Swarm
+
+puppet-manifests-+-3b87db3-+-Removed "jenkins-swarm-slave" option from packtest* servers
+
+puppet-manifests-+-f6bcfda-+-Add selenium option for fuel-web
+
+puppet-manifests-+-6638322-+-Use mysql data from hiera also for test nodes
+
+puppet-manifests-+-02e948b-+-Add zabbix monitoring support for glusterfs
+
+puppet-manifests-+-e5ffa51-+-Fix fping location
+
+puppet-manifests-+-2036df1-+-Merge "Landing page and static manifests added"
+
+puppet-manifests-+-f14f436-+-Landing page and static manifests added
+
+puppet-manifests-+-b55774b-+-Merge "Use puppet-php to manage php-fpm and php.ini configs"
+
+puppet-manifests-+-0c40094-+-Merge "Configure glusterfs as back end storage for cinder"
+
+puppet-manifests-+-c783f1a-+-Merge "Implement znc server in production section of site.pp"
+
+puppet-manifests-+-feb8f2c-+-Merge "Added new host to manifests"
+
+puppet-manifests-+-bfb63f8-+-Configure glusterfs as back end storage for cinder
+
+puppet-manifests-+-c2c4ed3-+-Turning off atime,diratime,barriers to increase performance(especially on VMs)
+
+puppet-manifests-+-90bf464-+-Use puppet-php to manage php-fpm and php.ini configs
+
+puppet-manifests-+-031a482-+-Refactoring+fixes fuel-stats development
+
+puppet-manifests-+-7b1303d-+-Merge "Changed version of kernel for tpi labs"
+
+puppet-manifests-+-3ff6a33-+-Merge "Using mysql configuration from hiera"
+
+puppet-manifests-+-8a1b829-+-Implement znc server in production section of site.pp
+
+puppet-manifests-+-df470fd-+-Added new host to manifests
+
+puppet-manifests-+-0fdbb5d-+-Fix for release status page uwsgi port
+
+puppet-manifests-+-8351c4a-+-Using mysql configuration from hiera
+
+puppet-manifests-+-a20471e-+-Add section for new osci jenkins slaves
+
+puppet-manifests-+-87f7fd9-+-Changed version of kernel for tpi labs
+
+puppet-manifests-+-cc2fc59-+-Merge "Added btsync configuration for tpi labs"
+
+puppet-manifests-+-e923c42-+-We need to create jenkins user before installing swarm
+
+puppet-manifests-+-985057d-+-Fix for realease_status page module
+
+puppet-manifests-+-e1abd6f-+-Added btsync configuration for tpi labs
+
+puppet-manifests-+-1735c7f-+-Merge "Fix of fuel_stats configuration"
+
+puppet-manifests-+-0f06598-+-Fix of fuel_stats configuration
+
+puppet-manifests-+-72b9b74-+-Install docker-only on jenkins slave
+
+puppet-manifests-+-b213d84-+-Fix issues with jenkins master
+
+puppet-manifests-+-12c9c74-+-Merge "Changed required packages for tpi labs"
+
+puppet-manifests-+-b7ca87d-+-Git MUST be explicitly installed on all jenkins slaves
+
+puppet-manifests-+-f0b0ad5-+-Changed required packages for tpi labs
+
+puppet-manifests-+-9cbc85e-+-Fuel-statistics refactoring and firewall fixes
+
+puppet-manifests-+-08e281a-+-Fix seed host with missed 17333 listen
+
+puppet-manifests-+-4027a2b-+-Fix firewall issue for mirrors
+
+puppet-manifests-+-be08e41-+-Fix for service aliases
+
+puppet-manifests-+-7330f34-+-Freeze python-sqlalchemy version
+
+puppet-manifests-+-c40bd3f-+-Merge "We don't need this "train""
+
+puppet-manifests-+-2117a38-+-We don't need this "train"
+
+puppet-manifests-+-b0737b0-+-Fuel-stats nginx fix
+
+puppet-manifests-+-19033fc-+-Merge "Add production configuration for fuel-stats"
+
+puppet-manifests-+-165e83a-+-Merge "Implement glusterfs management"
+
+puppet-manifests-+-d03a08c-+-Implement glusterfs management
+
+puppet-manifests-+-260f7cc-+-Implement plugins storage
+
+puppet-manifests-+-b3862df-+-Add production configuration for fuel-stats
+
+puppet-manifests-+-11f8521-+-Fix net.bridge.bridge-nf-call-iptables issue on slave nodes
+
+puppet-manifests-+-7d69e93-+-Merge "Module for release-status django app"
+
+puppet-manifests-+-76e3dcd-+-Merge "Commit will fix dependencies of nscd service."
+
+puppet-manifests-+-dc5c94b-+-Module for release-status django app
+
+puppet-manifests-+-9fc137d-+-Fix for mirror autoindex
+
+puppet-manifests-+-6d5d4db-+-Fix for syntax
+
+puppet-manifests-+-dcfb6b8-+-Add missing 'service_port' parameter to analytics
+
+puppet-manifests-+-37f5070-+-We need venv on slaves only in case of run_tests roles
+
+puppet-manifests-+-0b0ba0b-+-Fix for nginx stub status vhost
+
+puppet-manifests-+-e53f97c-+-Updates storage implementation
+
+puppet-manifests-+-60f33b1-+-Commit will fix dependencies of nscd service.
+
+puppet-manifests-+-511859a-+-Using upstream nginx module
+
+puppet-manifests-+-4c71446-+-zabbix::proxy module + zbxproxy01 server
+
+puppet-manifests-+-bc1fd4f-+-Merge "add jenkins_swarm_slave selector"
+
+puppet-manifests-+-4bef301-+-make util should be present before installing gems
+
+puppet-manifests-+-db8957e-+-add jenkins_swarm_slave selector
+
+puppet-manifests-+-eb4f9ad-+-Merge "Implement znc server in fuel project configuration"
+
+puppet-manifests-+-a34d8b7-+-Fix gerrit installation
+
+puppet-manifests-+-8d42331-+-Implement znc server in fuel project configuration
+
+puppet-manifests-+-0cdb150-+-Move anonymous statistics to separate module
+
+puppet-manifests-+-3e1267c-+-Fix hostnames for new jenkins slaves
+
+puppet-manifests-+-54bcd37-+-Merge "Ensure we will run apt-get update, to get correct packages from our repos"
+
+puppet-manifests-+-19806c6-+-Add jenkins slave definitions for new nodes
+
+puppet-manifests-+-6fe5d0f-+-Ensure we will run apt-get update, to get correct packages from our repos
+
+puppet-manifests-+-aadca76-+-Multiple naiulgun DBs for parallel tests
+
+puppet-manifests-+-4f8f7d0-+-Possible fix for unexistent packages on installing application
+
+puppet-manifests-+-0ba0b58-+-Merge "Ensure we have puppetmaster pkg is installed before disabling it"
+
+puppet-manifests-+-107dfcd-+-Merge "Ensure we have libyaml-dev for build-iso roles on jenkins slave"
+
+puppet-manifests-+-45a68e6-+-Ensure python-devops pkg is installed, before creating link
+
+puppet-manifests-+-5e8988d-+-Ensure we have puppetmaster pkg is installed before disabling it
+
+puppet-manifests-+-4249e24-+-Add pxe-product2-cz.vm.mirantis.net
+
+puppet-manifests-+-33f5920-+-Ensure, packages will be installed for nodes with venv roles
+
+puppet-manifests-+-ba85c06-+-Ensure we have libyaml-dev for build-iso roles on jenkins slave
+
+puppet-manifests-+-875a616-+-OBS-server module with using nginx and rubygem-passenger-nginx.
+
+puppet-manifests-+-6304a7c-+-Merge "Adding fuel-puppet-tst + fixes"
+
+puppet-manifests-+-6c775f0-+-Fix for setting sysctl value
+
+puppet-manifests-+-a6f083a-+-Merge "Disable netfilter call iptables for bridges on CI"
+
+puppet-manifests-+-51d929e-+-Adding fuel-puppet-tst + fixes
+
+puppet-manifests-+-91f9648-+-Fixes of anon-statistics feature
+
+puppet-manifests-+-9f52fcc-+-Disable netfilter call iptables for bridges on CI
+
+puppet-manifests-+-bd339fb-+-Add anonymous statistics definition
+
+puppet-manifests-+-8a268e9-+-Fix for poland cacher
+
+puppet-manifests-+-b77e77b-+-Discarding future parser usage
+
+puppet-manifests-+-33a332e-+-Ensure build_plugins role for production
+
+puppet-manifests-+-1fd5e39-+-Provide specific environment for building fuel-plugins
+
+puppet-manifests-+-42b7000-+-Merge "Setting iso keep limit on cachers + adding new ones"
+
+puppet-manifests-+-2640f2d-+-Merge "Fix Jenkins master"
+
+puppet-manifests-+-2f43089-+-Typo fix in item name
+
+puppet-manifests-+-dafa913-+-Setting iso keep limit on cachers + adding new ones
+
+puppet-manifests-+-1fff198-+-Fix Jenkins master
+
+puppet-manifests-+-69a0cf1-+-New cachers added + installing seed-stuff by default for slaves
+
+puppet-manifests-+-93ff4b5-+-Merge "Add pxe-product-cz + default value fix in pxetool"
+
+puppet-manifests-+-3aa5429-+-Small /var/www fix
+
+puppet-manifests-+-f2cc49b-+-Add pxe-product-cz + default value fix in pxetool
+
+puppet-manifests-+-147d31a-+-Merge "Added explicit /var/www requirement"
+
+puppet-manifests-+-f2757e6-+-Fix for ensure_packages(): Requires array given
+
+puppet-manifests-+-d78b15d-+-Added explicit /var/www requirement
+
+puppet-manifests-+-cf50ce3-+-Adding jenkins user to docker group
+
+puppet-manifests-+-ce73e4e-+-Fix nginx service notification
+
+puppet-manifests-+-825a073-+-Restructure after moving to new gerrit.
+
+puppet-manifests-+-f773015-+-Fix for missed package in fuel_project::seed
+
+puppet-manifests-+-380104f-+-Merge "Fix for zabbix server configuration + seed-downloads-cleanup parametrized"
+
+puppet-manifests-+-292b3a9-+-Fix for zabbix server configuration + seed-downloads-cleanup parametrized
+
+puppet-manifests-+-22de2df-+-UWSGI module changes and refactoring
+
+puppet-manifests-+-81abbab-+-Merge "jenkins-product-(kha|pl) got back + osci-gerrit2"
+
+puppet-manifests-+-be3d26c-+-Merge "Fix zabbix::agent server passing"
+
+puppet-manifests-+-7ed4e1e-+-jenkins-product-(kha|pl) got back + osci-gerrit2
+
+puppet-manifests-+-5dfa839-+-Fix for logrotate rule
+
+puppet-manifests-+-120afe2-+-Fix zabbix::agent server passing
+
+puppet-manifests-+-59c49a0-+-Adding seed-downloads-cleanup script to seed role
+
+puppet-manifests-+-8d6017d-+-Fix for /fwm/ dir creation
+
+puppet-manifests-+-40835c1-+-Fix for logging cronjob
+
+puppet-manifests-+-4513497-+-Fix for logrotate fails on zabbix-agent
+
+puppet-manifests-+-9c1efaf-+-Fix for puppet agent enabling(in install_puppet_master.sh) and setup order in pxetool
+
+puppet-manifests-+-227b65e-+-Fix for libvirt tcp listening
+
+puppet-manifests-+-4a2a285-+-Merge "ldap2sshkeys as a fuel specific script moved to fuel_project module"
+
+puppet-manifests-+-4bb993d-+-transmission_daemon refactoring
+
+puppet-manifests-+-db2983a-+-Merge "Pin for libxml2 package because upstream one doesn't work properly"
+
+puppet-manifests-+-d50c602-+-Pin for libxml2 package because upstream one doesn't work properly
+
+puppet-manifests-+-8e403fd-+-Adding aliases for mirror
+
+puppet-manifests-+-3047847-+-ldap2sshkeys as a fuel specific script moved to fuel_project module
+
+puppet-manifests-+-f87d7cf-+-Refactoring + Fixes
+
+puppet-manifests-+-2ba6372-+-Moving build_fuel_iso and system_tests modules within fuel_project::jenkins::slave
+
+puppet-manifests-+-ef6a0ac-+-Merge "Removing hardcodes from ::jenkins"
+
+puppet-manifests-+-75e33a6-+-Fix file and dirs perms
+
+puppet-manifests-+-c339d72-+-Removing hardcodes from ::jenkins
+
+puppet-manifests-+-e1ca46d-+-Added packages needed for TPI lab hosts
+
+puppet-manifests-+-0472885-+-Discarding virtual repositories usage
+
+puppet-manifests-+-0590186-+-Fixes and refactorings
+
+puppet-manifests-+-306f5d3-+-Added ability to setup rsync on seed for mirror purposes
+
+puppet-manifests-+-775f209-+-Added TPI node  definitions
+
+puppet-manifests-+-b54adbe-+-PXEtool disk pattern support
+
+puppet-manifests-+-241f9b0-+-Adding test nodes + fix for pxetool default mirror
+
+puppet-manifests-+-508a324-+-Hiera usage for puppet master and pxetool
+
+puppet-manifests-+-f2f6d12-+-Keep on using ensure_packages
+
+puppet-manifests-+-396902a-+-Using ensure_packages for package definition
+
+puppet-manifests-+-42214fe-+-Fixes + Refactoring
+
+puppet-manifests-+-9a81e00-+-Fix for fuel_project::jenkins::slave
+
+puppet-manifests-+-02ea35c-+-Moving output from ldap2sshkeys to syslog
+
+puppet-manifests-+-b15a3d6-+-Merge "tmux and screen added to install"
+
+puppet-manifests-+-4894991-+-tmux and screen added to install
+
+puppet-manifests-+-9c88dbc-+-Using thias-sysctl module
+
+puppet-manifests-+-54cef23-+-Update for ldap2sshkeys to support grants by groups
+
+puppet-manifests-+-27418c9-+-Fixes + Refactoring
+
+puppet-manifests-+-49ce361-+-Refactoring zabbix::server
+
+puppet-manifests-+-31ef41c-+-mc + srv regex fix
+
+puppet-manifests-+-495bd82-+-Fix for LDAP setup on twin1a-srt
+
+puppet-manifests-+-40f5070-+-Fix for puppet::master manifets + hiera configuration support
+
+puppet-manifests-+-ccbd024-+-Fix jenkins::slave include
+
+puppet-manifests-+-99b541b-+-ssh::ldap refactoring
+
+puppet-manifests-+-a2990b5-+-twin1a-srt added
+
+puppet-manifests-+-737d15e-+-Jenkins repo key update
+
+puppet-manifests-+-1a5720a-+-Add firewall for jenkins master
+
+puppet-manifests-+-e4c74a2-+-Refactoring in opentracker class
+
+puppet-manifests-+-b9199c4-+-Refactoring in fuel_project::jenkins_slave
+
+puppet-manifests-+-42e99cb-+-Fix dependencies for verify-fuel-web and verify-fuel-ostf
+
+puppet-manifests-+-9173268-+-Refactoring && Fixes
+
+puppet-manifests-+-f2097e7-+-Fix for puppet::master
+
+puppet-manifests-+-acbdc43-+-Fix errors and new virsh version
+
+puppet-manifests-+-1e200af-+-Fix for zabbix agent restart
+
+puppet-manifests-+-8a8faba-+-Fix typos in jenkins master
+
+puppet-manifests-+-ebf3bdb-+-Add some usefull packages to manifests.
+
+puppet-manifests-+-4c053e3-+-puppet parser verify && puppet-lint.
+
+puppet-manifests-+-4e8239a-+-Refactoring in more pretty to view way
+
+puppet-manifests-+-6a8b254-+-Fix firewall for zabbix-agent
+
+puppet-manifests-+-3141189-+-Add tests for fuellib_review_syntax_check
+
+puppet-manifests-+-b13fb7d-+-Fix for zabbix-agent configuration
+
+puppet-manifests-+-5711dfc-+-Copy install_modules.sh from openstack-infra/config
+
+puppet-manifests-+-d4118ec-+-Fix for apt::key + removing puppetlabs repo
+
+puppet-manifests-+-c269b02-+-Add phantomjs and /var/log/nailgun for fuel-web tests
+
+puppet-manifests-+-0d718b9-+-Jenkins master manifests
+
+puppet-manifests-+-0566729-+-Fix for server and server_external vars in hiera for zabbix
+
+puppet-manifests-+-f517a49-+-Fix for zabbix::agent on external hosts
+
+puppet-manifests-+-c89bd5d-+-Define webtest suite
+
+puppet-manifests-+-c484846-+-Quick zabbix packages fix
+
+puppet-manifests-+-d3b5a2b-+-zabbix::agent refactoring
+
+puppet-manifests-+-44d0657-+-Fix for listen_tcp
+
+puppet-manifests-+-394e732-+-Refactoring of Devops and psql removal
+
+puppet-manifests-+-f06fc26-+-Setting caching for gerrit static files
+
+puppet-manifests-+-d204123-+-using thias-libvirt
+
+puppet-manifests-+-0289cf2-+-Define lab-cz
+
+puppet-manifests-+-e8c4ce5-+-Refactoring of jenkins_slave to separate module
+
+puppet-manifests-+-f2fc83c-+-Integrate OpenStack Gerrit to Fuel-Infra
+
+puppet-manifests-+-278c63a-+-Fix lab-cz.bud.mirantis.net hostname
+
+puppet-manifests-+-dab0a1e-+-Add entry for lab-cz.vm.mirantis.net
+
+puppet-manifests-+-06e177c-+-Fixes and improvements
+
+puppet-manifests-+-d528bbf-+-Fix for dpkg inclusion
+
+puppet-manifests-+-f971629-+-Fix for pxetool and allowing local traffic for devops envs
+
+puppet-manifests-+-1c0f383-+-Refactoring
+
+puppet-manifests-+-c3c5093-+-Setting timezone from puppet + moving root-email to hiera
+
+puppet-manifests-+-22bde6e-+-jenkins-product-pl.poz.mirantis.net added
+
+puppet-manifests-+-d7854ba-+-Legacy cron stuff left from IT's puppet
+
+puppet-manifests-+-2f7c696-+-Add libevent-dev to system test
+
+puppet-manifests-+-a5b2553-+-Fix firewall rules for DMZ hosts in zabbix::agent
+
+puppet-manifests-+-6732cd7-+-Fix firewall rules for docker containers
+
+puppet-manifests-+-1c100f4-+-Refactoring virtual::packages
+
+puppet-manifests-+-9a38db8-+-Using hiera for firewall rules
+
+puppet-manifests-+-7f27fe1-+-sudo for iso building
+
+puppet-manifests-+-ff917cc-+-Fixes + Refactoring
+
+puppet-manifests-+-ba62b42-+-Using hiera in jenkins module
+
+puppet-manifests-+-894a50e-+-Puppet master(1st step of migration)
+
+puppet-manifests-+-31b4344-+-Firewall fix for ci slaves + nginx basic monitoring
+
+puppet-manifests-+-b6933aa-+-Password changes
+
+puppet-manifests-+-fcdd26f-+-zabbix db and server optimizations
+
+puppet-manifests-+-c0013df-+-Zabbix::server fixes and common improvements
+
+puppet-manifests-+-b8bcc30-+-(pkgs)?ci-slave*.fuel-infra.org added
+
+puppet-manifests-+-03b52ec-+-Using future parser to enable iterations
+
+puppet-manifests-+-6f9ab99-+-Merge "Fix requirements in seed::web"
+
+puppet-manifests-+-db4e3ac-+-Fix requirements in seed::web
+
+puppet-manifests-+-d389a0f-+-fixing lxc-docker to 0.10.0 as 0.11.0 doesn't work currently
+
+puppet-manifests-+-85d04ec-+-Fix apt::key -> apt::source sequence
+
+puppet-manifests-+-37e7475-+-seed::web updates
+
+puppet-manifests-+-d349417-+-Fixing keys and repos issues
+
+puppet-manifests-+-f0f2713-+-Cleanup cronjob for system_tests environments added
+
+puppet-manifests-+-9cde202-+-Cleanup cronjob added
+
+puppet-manifests-+-b89b4e7-+-Fix for jenkins swarm slave variables
+
+puppet-manifests-+-feedb3b-+-Fix typos
+
+puppet-manifests-+-1ec21fe-+-Add atop to base system
+
+puppet-manifests-+-0194981-+-jenkins modules refactoring + fix for jenkins access to /var/www/fuelweb-iso
+
+puppet-manifests-+-bd1cbf3-+-mirror1.f-i.org + refactoring
+
+puppet-manifests-+-6ba8cab-+-Fix sources.list conflict, add jenkins-product-kha
+
+puppet-manifests-+-833a9d1-+-Fix for dpkg module
+
+puppet-manifests-+-941c373-+-Add virtual repos
+
+puppet-manifests-+-5c582f7-+-Separate virtual resources in submodule.
+
+puppet-manifests-+-41f4234-+-Sudoers for zabbix-agent added
+
+puppet-manifests-+-98440a8-+-Update pxe-product VMs names
+
+puppet-manifests-+-7cbbb51-+-Fix for pxe-product nodes names in site.pp
+
+puppet-manifests-+-9bd7426-+-Syntax fix for pxetool manifests
+
+puppet-manifests-+-8b8ff95-+-root email
+
+puppet-manifests-+-f3c4069-+-Add bc dependency for building fuel iso
+
+puppet-manifests-+-258b0da-+-Fixed relations between installation of nginx and restart on configuring
+
+puppet-manifests-+-e0ca3b9-+-Add aurlapova key and other enhancements
+
+puppet-manifests-+-6aafc26-+-Automate installation of fuel iso build enviroment
+
+puppet-manifests-+-1e658c1-+-Fix for ssh::ldap: ldap-utils added to deps
+
+puppet-manifests-+-3b0fdde-+-nginx and dpkg fixes, ldap auth for ssh
+
+puppet-manifests-+-53c62ee-+-Improvements(log_format proxy, pxetool installation)
+
+puppet-manifests-+-d9b1eeb-+-Refactoring
+
+puppet-manifests-+-506a904-+-Zabbix active checks on external servers fix
+
+puppet-manifests-+-01af72d-+-Zabbix firewall fix
+
+puppet-manifests-+-a735fc6-+-Seed-web support in manifests
+
+puppet-manifests-+-02bfaa5-+-External mirror added
+
+puppet-manifests-+-3eb18f3-+-Make default storage pool persistent
+
+puppet-manifests-+-6144b89-+-sudo for jenkins user to run ebtables (Close-Bug: #1315863)
+
+puppet-manifests-+-9eab50d-+-Zabbix server manifests and refactoring
+
+puppet-manifests-+-6908455-+-Local mirrors usage
+
+puppet-manifests-+-471f954-+-Additional configuration for external jenkins slaves
+
+puppet-manifests-+-1207341-+-Added new external torrent hosts
+
+puppet-manifests-+-1aabf78-+-pxetool manifests added.
+
+puppet-manifests-+-97cafd5-+-Replacing fuel-jenkins2.mirantis.com with pattern
+
+puppet-manifests-+-c691aee-+-Behaviour improvements
+
+puppet-manifests-+-e75c110-+-Setting labels for jenkins swarm slave
+
+puppet-manifests-+-b89101e-+-nginx share for data
+
+puppet-manifests-+-c8830ac-+-Moscow microcloud added
+
+puppet-manifests-+-d033b8f-+-fix for jenkins_slave role
+
+puppet-manifests-+-437c66e-+-Discard etckeeper usage
+
+puppet-manifests-+-129193e-+-ubuntu 14.04 support
+
+puppet-manifests-+-5bd2eb2-+-ntp module added
+
+puppet-manifests-+-8527fbb-+-python-yaml added
+
+puppet-manifests-+-a3ab691-+-fixing HOME variable issue
+
+puppet-manifests-+-fce132e-+-add logoutput => on_failure to all exec's
+
+puppet-manifests-+-f2829d7-+-Fixes & improvements
+
+puppet-manifests-+-84f484b-+-iptables-persistent dependencies
+
+puppet-manifests-+-809868c-+-zabbix_agentd.conf template updated
+
+puppet-manifests-+-3e31642-+-firewall rules added + fixes
+
+puppet-manifests-+-f7edc54-+-Selfupdate functionality + zabbix checks
+
+puppet-manifests-+-a79974f-+-opentracker manifests added + jenkins swarm slave config templaterized
+
+puppet-manifests-+-58c4bfa-+-fixes, user creation
+
+puppet-manifests-+-2668a19-+-transmission-daemon download directory creation
+
+puppet-manifests-+-32a34cf-+-Disabling addional repo (all stuff moved to qa-ubuntu repo)
+
+puppet-manifests-+-2a0fc16-+-Manifests updated
+
+puppet-manifests-+-5ff380c-+-manage.py syncdb && virsh pool-create
+
+puppet-manifests-+-b2f8293-+-Fix manifests order
+
+puppet-manifests-+-52392f8-+-jenkins-swarm-slave manifests added
+
+puppet-manifests-+-c18f35f-+-Saratov microcloud node definition
+
+puppet-manifests-+-7e7759d-+-dependencies fix
+
+puppet-manifests-+-2b0b023-+-Fixes in system_tests, postgresql, venv modules
+
+puppet-manifests-+-1d9013e-+-Changing manifests structure
+
+puppet-manifests-+-c0ebac9-+-Initial code commit.
+puppet-module-keepalived-+-45c6d0f-+-Include keepalived::variables in keepalived::instance. Add require on keepalived::install.
+
+puppet-module-keepalived-+-8ebdb94-+-Initial commit
+puppet-sudo-+-dbe88b6-+-Initial commit.
+puppetlabs-cinder-+-c4f4a30-+-Include /etc/cinder/volumes/ in tgt targets.conf
+
+puppetlabs-cinder-+-4a94945-+-Add Redhat support
+
+puppetlabs-cinder-+-704400f-+-add cinder client
+
+puppetlabs-cinder-+-d5f081b-+-set volume package dep to title
+
+puppetlabs-cinder-+-ac334c1-+-catch unsupported osfamily
+
+puppetlabs-cinder-+-104baec-+-set default verbose to False
+
+puppetlabs-cinder-+-9c716d6-+-remove trailing class param comma
+
+puppetlabs-cinder-+-e673946-+-add test class
+
+puppetlabs-cinder-+-630cdb7-+-ensure scheduler starts after db sync
+
+puppetlabs-cinder-+-3b32b88-+-iscsi_ip_address is required
+
+puppetlabs-cinder-+-36c44e1-+-tgt config file is now included in cinder-volume package.
+
+puppetlabs-cinder-+-07e1bc6-+-Multi-region support
+
+puppetlabs-cinder-+-81428cc-+-changed vg name, added tgt configuration
+
+puppetlabs-cinder-+-14a96dc-+-update cinder for folsome
+
+puppetlabs-cinder-+-f59c361-+-Added ini_setting file notification
+
+puppetlabs-cinder-+-58e3872-+-changes
+
+puppetlabs-cinder-+-eb60ddb-+-Initial commit of new configuration
+puppetlabs-glance-+-1fb892a-+-Add enabled parameter to glance services.
+
+puppetlabs-glance-+-a7dedf1-+-Allow override of mysql charset & small whitespace fixes and spec improvements to test this change.
+
+puppetlabs-glance-+-cbd1a0d-+-Change require => mysql::server to mysql::config so the mysql is fully configured before glance database is created.
+
+puppetlabs-glance-+-87740b2-+-fix old puppet
+
+puppetlabs-glance-+-db28c35-+-Fix default boolean value for configure_endpoint.
+
+puppetlabs-glance-+-f1df5e6-+-Make endpoint configuration in glance::keystone::auth optional in case not using templated catalog file for defining endpoints. (keystone_endpoint type seems to assume always using SQL driver.)
+
+puppetlabs-glance-+-9d8a1fb-+-Specify glance client package name in params.pp.
+
+puppetlabs-glance-+-7f08fd4-+-Create configuration class for glance client, mirroring puppetlabs nova::client to some degree.
+
+puppetlabs-glance-+-b454b90-+-Refactor of glance::keystone::auth
+
+puppetlabs-glance-+-6221437-+-Update glance tenant
+
+puppetlabs-glance-+-384ff2a-+-Set registry mysql connection
+
+puppetlabs-glance-+-8de1261-+-Update glance example
+
+puppetlabs-glance-+-52aae65-+-Move mysql code to db::mysql
+
+puppetlabs-glance-+-cc9fe8c-+-Fix backend config resource
+
+puppetlabs-glance-+-cb60a37-+-Require python keystone
+
+puppetlabs-glance-+-19dd25b-+-Merge pull request #28 from bodepd/dev
+
+puppetlabs-glance-+-e38e09d-+-Ensure that glance requires a backend
+
+puppetlabs-glance-+-5debef3-+-Run glance-manage db_sync as glance
+
+puppetlabs-glance-+-edaf205-+-Only changes to the database should trigger db_sync
+
+puppetlabs-glance-+-0f75155-+-Make the db_sync command different per distro
+
+puppetlabs-glance-+-c73c4a8-+-Do not start services until glance user_role exists
+
+puppetlabs-glance-+-47ee87f-+-DB sync should also require db privs
+
+puppetlabs-glance-+-4b95b9d-+-Perform explicit db migrations
+
+puppetlabs-glance-+-52cbb6f-+-Make repo setup code Debian specific
+
+puppetlabs-glance-+-e152916-+-Update glance service definitions
+
+puppetlabs-glance-+-ace411f-+-Require mysql::python
+
+puppetlabs-glance-+-ceb41af-+-Remove explicit management of python-migrate
+
+puppetlabs-glance-+-cdfc5a4-+-Remove unused admin_token
+
+puppetlabs-glance-+-616b32d-+-Update keystone tenant name
+
+puppetlabs-glance-+-cfc9516-+-Add test code for glance with mysql backend
+
+puppetlabs-glance-+-a2512fc-+-Remove ref to deprecated keystone::sqlite
+
+puppetlabs-glance-+-fdbf846-+-Refactor api-ini config files
+
+puppetlabs-glance-+-a7a96af-+-Fix broken tests
+
+puppetlabs-glance-+-151493f-+-Remove backend class
+
+puppetlabs-glance-+-2e43509-+-Remove dependency from glance::api to concat::setup
+
+puppetlabs-glance-+-6bd7dc6-+-Namespace glance apu fragments to avoid duplicates
+
+puppetlabs-glance-+-bcf95f2-+-Refactor example based on fragment reafactor
+
+puppetlabs-glance-+-0a400dc-+-Add rspec tests
+
+puppetlabs-glance-+-98027b5-+-Remove service parameters
+
+puppetlabs-glance-+-2ec7af0-+-Refactor glance::api to use fragments
+
+puppetlabs-glance-+-6c29550-+-Split api.conf file into fragments
+
+puppetlabs-glance-+-1a15b76-+-Ensure repo stage is applied before main stage
+
+puppetlabs-glance-+-d1e33cc-+-Add code to use latest ppas
+
+puppetlabs-glance-+-9db0529-+-Update example site.pp
+
+puppetlabs-glance-+-a5ac232-+-Refactor config files for essex
+
+puppetlabs-glance-+-dd5fb3e-+-Add code for db and host_access
+
+puppetlabs-glance-+-f6a9d5c-+-fix typo
+
+puppetlabs-glance-+-7c6d540-+-Add python migrate dependency
+
+puppetlabs-glance-+-0d205ba-+-Add an example file
+
+puppetlabs-glance-+-2167074-+-Add fedora support for glance
+
+puppetlabs-glance-+-33913ef-+-Add rdoc to glance::api
+
+puppetlabs-glance-+-c273426-+-Style update
+
+puppetlabs-glance-+-7ba954f-+-Add $ to glance package_ensure
+
+puppetlabs-glance-+-2bf87bc-+-(#11693) Add package_ensure param to glance class
+
+puppetlabs-glance-+-0f9c503-+-Set verbose + debug false by default
+
+puppetlabs-glance-+-16a544c-+-Modify class parameters, templates and tests for logging options avoiding use of 'debug'
+
+puppetlabs-glance-+-5e48e4a-+-added hasrestart, hasstatus to services.
+
+puppetlabs-glance-+-8614763-+-Added missing comma
+
+puppetlabs-glance-+-e8a6e3d-+-Fixing the filename for the default sql_connection
+
+puppetlabs-glance-+-70c6528-+-initial commit for glance.
+puppetlabs-mysql-+-75582b4-+-Merge branch 'custom-setup-class'
+
+puppetlabs-mysql-+-6869b77-+-Parameterized pidfile; critical for successful first restart
+
+puppetlabs-mysql-+-03c2ac8-+-Customizable setup class for package/service.
+
+puppetlabs-mysql-+-211da13-+-Revert "Merge pull request #90 from emonty/master"
+
+puppetlabs-mysql-+-063d724-+-Merge pull request #90 from emonty/master
+
+puppetlabs-mysql-+-0269553-+-Put that curly brace in the right place this time
+
+puppetlabs-mysql-+-1da8ae7-+-Add a missing curly brace
+
+puppetlabs-mysql-+-65f72ad-+-Add support for Amazon Linux.
+
+puppetlabs-mysql-+-8d97f5d-+-Add apparmor support.
+
+puppetlabs-mysql-+-605fa71-+-Escape $root_password during execs.
+
+puppetlabs-mysql-+-069dc48-+-Add parameterization changes from wikipedia.
+
+puppetlabs-mysql-+-8b2b29a-+-Add enabled parameter to mysql::server
+
+puppetlabs-mysql-+-05d7e23-+-(#14330) Add support for FreeBSD
+
+puppetlabs-mysql-+-0f0928a-+-Allow specification of storage engine.
+
+puppetlabs-mysql-+-360f8d9-+-Merge pull request #64 from runningman/backup
+
+puppetlabs-mysql-+-ed62777-+-Merge pull request #63 from runningman/security
+
+puppetlabs-mysql-+-8dc651c-+-Simplify Exec["${name}-import"]
+
+puppetlabs-mysql-+-70d14e8-+-Update privilege names to comply with 3fbb54de6c.
+
+puppetlabs-mysql-+-d0a5b1c-+-remove $safe_grant
+
+puppetlabs-mysql-+-fbee243-+-Rip out backup class parameter defaults.
+
+puppetlabs-mysql-+-e6b45eb-+-Merge pull request #60 from geogdog/patch-1
+
+puppetlabs-mysql-+-f750b39-+-Merge pull request #61 from runningman/java
+
+puppetlabs-mysql-+-64f367f-+-Fix typos in mysql::server::monitor class
+
+puppetlabs-mysql-+-7890f79-+-Added mysql::server::account_security class.
+
+puppetlabs-mysql-+-4158137-+-Added mysql::backup class.
+
+puppetlabs-mysql-+-0743faa-+-Added tests to mysql::java.
+
+puppetlabs-mysql-+-ba4df4d-+-Added mysql::java class.
+
+puppetlabs-mysql-+-097879b-+-I noticed the following message whilst provisioning using this module:
+
+puppetlabs-mysql-+-9ff99ba-+-set platform dependent error logfile location
+
+puppetlabs-mysql-+-f7e0ea5-+-(#13203) Add ssl support
+
+puppetlabs-mysql-+-ce606a9-+-Merge pull request #53 from nanliu/tb/travis
+
+puppetlabs-mysql-+-9ebbbc4-+-Fix Puppet 2.6 compilation issues.
+
+puppetlabs-mysql-+-f353fc6-+-(#13163) Datadir should be configurable
+
+puppetlabs-mysql-+-72da2c5-+-Fix mysql service on Ubuntu.
+
+puppetlabs-mysql-+-812ba01-+-Merge pull request #46 from bodepd/add_rspec_tests_for_config_class
+
+puppetlabs-mysql-+-b14c7d1-+-Add a test to check path for 'mysqld-restart'
+
+puppetlabs-mysql-+-1a9ae6b-+-Fix path for 'mysqld-restart'
+
+puppetlabs-mysql-+-da62ad6-+-Moved class dependency between sever and config to server
+
+puppetlabs-mysql-+-0832a2c-+-Notify mysql restart from set_mysql_rootpw exec
+
+puppetlabs-mysql-+-e472d3b-+-Mention osfamily value in failure message
+
+puppetlabs-mysql-+-b1f90fd-+-Major refactor of mysql module.
+
+puppetlabs-mysql-+-1e926b4-+-Ruby and Python's MySQL libraries are named differently on different distros.
+
+puppetlabs-mysql-+-09af083-+-Per @ghoneycutt, we should fail explicitly and explain why.
+
+puppetlabs-mysql-+-7513d03-+-Removing duplicate declaration
+
+puppetlabs-mysql-+-031a47d-+-Instead of hardcoding the config file target, pull it from mysql::params
+
+puppetlabs-mysql-+-360eacd-+-Moved $socket to within the case to toggle between distros.  Added a $config_file variable to allow per-distro config file destinations.
+
+puppetlabs-mysql-+-3462e6b-+-Pretty sure this is a bug, 99% of Linux distros out there won't ever hit the default.
+
+puppetlabs-mysql-+-0783c74-+-Only notify Exec to import sql if sql is given
+
+puppetlabs-mysql-+-e3b9fd9-+-(#11508) Only load sql_scripts on DB creation
+
+puppetlabs-mysql-+-3058feb-+-Require not needed due to implicit dependencies
+
+puppetlabs-mysql-+-a557b8d-+-Bug #11375: puppetlabs-mysql fails on CentOS/RHEL
+
+puppetlabs-mysql-+-0292456-+-(#11184) Allow wildcards in account host names
+
+puppetlabs-mysql-+-9266049-+-(#11185) Fully qualify $operatingsystem
+
+puppetlabs-mysql-+-68e4c6a-+-Merge pull request #21 from bodepd/config_hash_update
+
+puppetlabs-mysql-+-e1cb227-+-(#10391) Update docs to reflect config_hash.
+
+puppetlabs-mysql-+-319644c-+-(#10390) Manage /etc/mysql directory.
+
+puppetlabs-mysql-+-eb60816-+-Fixed dep issue.
+
+puppetlabs-mysql-+-9f77e8a-+-Merge pull request #14 from bodepd/issue/master/root_pw_cleanup
+
+puppetlabs-mysql-+-a1bd554-+-15 - Fix resource names in monitor.pp
+
+puppetlabs-mysql-+-0963d2e-+-Cleaned up implementation for setting root pw
+
+puppetlabs-mysql-+-b93e0f6-+-Fixed bug with updating mysql root pw.
+
+puppetlabs-mysql-+-a24881a-+-Created config class and extended params.
+
+puppetlabs-mysql-+-0f3f58f-+-Merge pull request #9 from glarizza/feature/master/password_ordering
+
+puppetlabs-mysql-+-bba9589-+-Fix service path
+
+puppetlabs-mysql-+-1d16d45-+-Fix root password ordering issue
+
+puppetlabs-mysql-+-6b98633-+-Add client package variable
+
+puppetlabs-mysql-+-c15ef0a-+-Remove path to service binary
+
+puppetlabs-mysql-+-f429177-+-Refactor ruby package provider
+
+puppetlabs-mysql-+-fb00c75-+-Debian should not manage root password
+
+puppetlabs-mysql-+-b7761ef-+-corrected /etc/my.cnf path
+
+puppetlabs-mysql-+-344d644-+-Added documentation and license to module.
+
+puppetlabs-mysql-+-03d2ad5-+-Added ensure param to mysql::ruby.
+
+puppetlabs-mysql-+-fa7f0eb-+-removed accidentally checked in swap file.
+
+puppetlabs-mysql-+-0b5cc21-+-cleaned up style a little:
+
+puppetlabs-mysql-+-3033803-+-added module to install python tools for mysql
+
+puppetlabs-mysql-+-d28f0e0-+-adding first commit for mysql.
+puppetlabs-nova-+-3bb769b-+-Merge pull request #214 from puppetlabs/folsom
+
+puppetlabs-nova-+-a4b7581-+-Merge pull request #212 from Mirantis/volume-san
+
+puppetlabs-nova-+-c340ac5-+-Adding the ability to specify https for the public endpoint
+
+puppetlabs-nova-+-4240bf2-+-RedHad support in nova::network::bridge
+
+puppetlabs-nova-+-67938cb-+-Add nova-volume san support
+
+puppetlabs-nova-+-5e5a143-+-Implement volume_api_class as an option
+
+puppetlabs-nova-+-63553a0-+-Remove duplicate statement block
+
+puppetlabs-nova-+-31a0d77-+-Merge pull request #189 from jtopjian/folsom-rebase
+
+puppetlabs-nova-+-b3cd9e5-+-Do not create nova-volume if cinder is enabled. Removed unused defined type.
+
+puppetlabs-nova-+-c7e794f-+-Added migration support
+
+puppetlabs-nova-+-e75da42-+-vlan fixes
+
+puppetlabs-nova-+-0056e1f-+-wrap utilities packages in a if \!defined to prevent conflict with rvm module
+
+puppetlabs-nova-+-b342c59-+-wrap utilities packages in a if \!defined to prevent conflict with rvm module
+
+puppetlabs-nova-+-66fb703-+-wrap utilities packages in a if \!defined to prevent conflict with rvm module
+
+puppetlabs-nova-+-be9e0e2-+-wrap utilities packages in a if \!defined to prevent conflict with rvm module
+
+puppetlabs-nova-+-1f56b9e-+-Add a coupld of api deps
+
+puppetlabs-nova-+-0dd1571-+-do not install utilities on RHEL.
+
+puppetlabs-nova-+-3853321-+-remove $::nova::params::libvirt_type_kvm package
+
+puppetlabs-nova-+-6a06ea9-+-Merge pull request #180 from derekhiggins/cinderclient
+
+puppetlabs-nova-+-7fd92c3-+-Adding cinderclient as a dependency of nova::api
+
+puppetlabs-nova-+-3413cbd-+-explicitly name the individual openstack nova packages on RedHat
+
+puppetlabs-nova-+-2b40a3e-+-Merge pull request #178 from derekhiggins/fix_rootwrap_config
+
+puppetlabs-nova-+-2c98693-+-Make libvit_vif_driver configurable
+
+puppetlabs-nova-+-a9f435d-+-Fixing incorrect name for rootwrap_config config option
+
+puppetlabs-nova-+-69746d0-+-Multi-region support
+
+puppetlabs-nova-+-25b7638-+-do not enable nova volumes api service by default
+
+puppetlabs-nova-+-03d7c21-+-Merge remote-tracking branch 'origin/master' into HEAD
+
+puppetlabs-nova-+-b252a23-+-nova-network changes. might need to do more work.
+
+puppetlabs-nova-+-29e0629-+-style update
+
+puppetlabs-nova-+-88fe5c4-+-Do not override collected resources
+
+puppetlabs-nova-+-d615576-+-use mysql::python class
+
+puppetlabs-nova-+-fb67124-+-make passwords optional
+
+puppetlabs-nova-+-63eddeb-+-update inline docs
+
+puppetlabs-nova-+-517f93d-+-Style updates
+
+puppetlabs-nova-+-deb3f0f-+-Adds the ability to set enabled APIs
+
+puppetlabs-nova-+-64a8823-+-update tests
+
+puppetlabs-nova-+-706f842-+-Update glance/keystone declarations
+
+puppetlabs-nova-+-4b79fc4-+-network_manager should no longer be set for folsom
+
+puppetlabs-nova-+-892bd58-+-Add quantum integration code
+
+puppetlabs-nova-+-857c5cb-+-Make db_sync dep optional
+
+puppetlabs-nova-+-3844e32-+-make apis hosted by nova configurable
+
+puppetlabs-nova-+-76d4632-+-folsom changes
+
+puppetlabs-nova-+-647716a-+-install mysql python client
+
+puppetlabs-nova-+-6c756d9-+-simply nova::compute::libvirt
+
+puppetlabs-nova-+-542db38-+-update keystone auth
+
+puppetlabs-nova-+-ad9084b-+-Remove nova-db-sync
+
+puppetlabs-nova-+-15a434a-+-Use ini native types for paste_api
+
+puppetlabs-nova-+-372327a-+-Remove old unused code
+
+puppetlabs-nova-+-9c78fd7-+-Remove trailing comma from class parameter
+
+puppetlabs-nova-+-3568b69-+-Revert "Merge pull request #151 from dizz/patch-1"
+
+puppetlabs-nova-+-ce7a765-+-Revert "Remove trailing comma"
+
+puppetlabs-nova-+-5f9ecbe-+-Remove trailing comma
+
+puppetlabs-nova-+-4d8ddb8-+-Enables the occi api
+
+puppetlabs-nova-+-d154dc1-+-Merge pull request #148 from jtopjian/jtopjian-migration2
+
+puppetlabs-nova-+-3a48cb5-+-Merge pull request #145 from Mirantis/api-bind-address
+
+puppetlabs-nova-+-9844ebb-+-Added migration support to Nova
+
+puppetlabs-nova-+-191b1c3-+-Add support for the 'iscsitarget' implementation of iscsi_helper, an alternative to tgtadm. It requires two packages ( iscsitarget and iscsitarget-dkms ) and runs two services ( open-iscsi and iscsitarget ).
+
+puppetlabs-nova-+-a867719-+-API bind address customizable
+
+puppetlabs-nova-+-5040478-+-Merge pull request #142 from jtopjian/jtopjian-virtio_nic
+
+puppetlabs-nova-+-e66930b-+-Update manifests/params.pp
+
+puppetlabs-nova-+-9e4f029-+-Changed default value to false -- would probably ruin a lot of people's current installations.
+
+puppetlabs-nova-+-b832fff-+-Added virtio nic support
+
+puppetlabs-nova-+-226fd75-+-Added basic Quantum support
+
+puppetlabs-nova-+-01ffe54-+-include nova::params in compute.pp
+
+puppetlabs-nova-+-f11acbd-+-Merge pull request #136 from niedbalski/master
+
+puppetlabs-nova-+-6369317-+-Added dhcp_domain to vlan manifest and flatdhcp
+
+puppetlabs-nova-+-9650971-+-Parameterize the nova db charset
+
+puppetlabs-nova-+-3dccc4b-+-Adds support for system usage data notifications via rabbitmq driver
+
+puppetlabs-nova-+-14a2a0f-+-Allow nova::rabbitmq to be disabled.
+
+puppetlabs-nova-+-2a5e84c-+-Use create_resources for the nova networking configuration
+
+puppetlabs-nova-+-2924d55-+-Add DHCP options to nova::network::vlan
+
+puppetlabs-nova-+-3b6e838-+-Write puppet code to patch nova volume management
+
+puppetlabs-nova-+-9fcd4df-+-Fix rspec test failures
+
+puppetlabs-nova-+-d3707ba-+-Ensure that vcnproxy package ensure state can be specific in nova::vncproxy
+
+puppetlabs-nova-+-6200922-+-Project should be set
+
+puppetlabs-nova-+-7a90c82-+-Remove trailing comma from class param list
+
+puppetlabs-nova-+-5e8e170-+-Ensure that package state can be set for volume service.
+
+puppetlabs-nova-+-eb59187-+-Modified nova-volume:   * Tried to refactor to allow other nova-volume drivers to easily be added.   * As well, allow other iscsi implementations to be configured in iscsi.pp   * Added iscsi_helper and iscsi_ip_address as a parameter for nova::volume::iscsi   * Added tests for volume manifests   * Added example configs.
+
+puppetlabs-nova-+-4f0e571-+-Use correct name for novncproxy_base_url
+
+puppetlabs-nova-+-bd80998-+-Make creation of nova database dependant on mysql::config instead of mysql::server, database isn't fully configured until this has been run.
+
+puppetlabs-nova-+-9e8cced-+-Remove commas for older puppet compat
+
+puppetlabs-nova-+-7c836ea-+-Allow for specification of package version for nova client package.
+
+puppetlabs-nova-+-7af9469-+-Allow for specification of package version for nova-cert service.
+
+puppetlabs-nova-+-f5b7a84-+-Allow for specification of package version for nova consoleauth.
+
+puppetlabs-nova-+-6ed5b30-+-Allow for specification of package version for nova compute.
+
+puppetlabs-nova-+-37c08ae-+-Allow for specification of package version for nova network.
+
+puppetlabs-nova-+-2333436-+-Allow for specification of package version for nova objectstore.
+
+puppetlabs-nova-+-eecfc80-+-Allow specification of nova vnc proxy version.
+
+puppetlabs-nova-+-af5e4fa-+-Allow specification of nova-volume package version.
+
+puppetlabs-nova-+-6f744cd-+-Allow specifing specific package version for nova-scheduler.
+
+puppetlabs-nova-+-c3cc370-+-Style cleanup for nova class
+
+puppetlabs-nova-+-b65667f-+-Update nova_network type
+
+puppetlabs-nova-+-6c9cb51-+-Improve db sync dependencies
+
+puppetlabs-nova-+-a39bead-+-Remove nova::all
+
+puppetlabs-nova-+-49a9f6b-+-Refactor nova networking
+
+puppetlabs-nova-+-992a006-+-Remove deprecated parameters from nova class
+
+puppetlabs-nova-+-23bf87e-+-Add inline parameters documentaiton for nova class
+
+puppetlabs-nova-+-574c80e-+-Refactor of nova_manage native type
+
+puppetlabs-nova-+-f6c5ccb-+-Merge pull request #109 from CiscoSystems/master
+
+puppetlabs-nova-+-4c79bc3-+-Merge pull request #110 from sorenh/glance-by-default
+
+puppetlabs-nova-+-20065f5-+-Use GlanceImageService by default
+
+puppetlabs-nova-+-df673e2-+-Use GlanceImageService by default
+
+puppetlabs-nova-+-76296e6-+-Fix glance_api_servers setting
+
+puppetlabs-nova-+-4df418d-+-Remove commas for older puppet compat
+
+puppetlabs-nova-+-1642af2-+-Merge pull request #106 from jmchilton/api_package_version
+
+puppetlabs-nova-+-ede5a8e-+-Update nova::api class to allow specification of specific package version for nova-api service. This required augmenting generic-service to allow specifing such package versions as well. Default behavior should not be affected, added spec to test these changes.
+
+puppetlabs-nova-+-5a58bc8-+-Merge pull request #101 from branan/14274_hosts
+
+puppetlabs-nova-+-762beaf-+-(14274) remove rabbitmq hostname workaround
+
+puppetlabs-nova-+-9504bd1-+-(14273) Do not set the charset for the nova db
+
+puppetlabs-nova-+-4905dce-+-Updated nvcproxy class to use packages
+
+puppetlabs-nova-+-38aa6ce-+-Merge pull request #98 from codec/refactor-endpoint-versions
+
+puppetlabs-nova-+-622d479-+-refactor nova::keystone::auth to allow version per endpoint
+
+puppetlabs-nova-+-ad8dbea-+-Merge remote-tracking branch 'aimonb/master'
+
+puppetlabs-nova-+-f2174b4-+-Merge pull request #97 from bodepd/dev
+
+puppetlabs-nova-+-cb2f51a-+-Move auth_strategy to nova class
+
+puppetlabs-nova-+-32c2333-+-Refactor endpoint code
+
+puppetlabs-nova-+-56797a2-+-Merge pull request #96 from bodepd/dev
+
+puppetlabs-nova-+-8c32b4a-+-Refactor nova::compute vncproxy settings
+
+puppetlabs-nova-+-3d5c3f7-+-Revert back to latin1 for default mysql db charset
+
+puppetlabs-nova-+-1763e02-+-nova-consoleauth is required by nova-vncproxy
+
+puppetlabs-nova-+-9bf973c-+-Include novncproxy_base_url in nova::compute class
+
+puppetlabs-nova-+-5ac1733-+-Fix parameters for vncproxy
+
+puppetlabs-nova-+-f28570b-+-Fix the default url for novncproxy_base_url
+
+puppetlabs-nova-+-b509c4c-+-Fix package name for consoleauth on Debian OS
+
+puppetlabs-nova-+-2aadaa4-+-No need for git novnc on Debian OS
+
+puppetlabs-nova-+-d8c9d05-+-Specify platform specific names for numpy package
+
+puppetlabs-nova-+-75e373e-+-Enable vncproxy for all and controller classes
+
+puppetlabs-nova-+-399500b-+-Sort package and service params
+
+puppetlabs-nova-+-a40c19b-+-Refactor of vncproxy
+
+puppetlabs-nova-+-cb6d768-+-Make service config optional in generic service
+
+puppetlabs-nova-+-c3f79a8-+-Use public hostname fact for vncproxy_address
+
+puppetlabs-nova-+-e09fdca-+-Add python-numpy package
+
+puppetlabs-nova-+-4deb50e-+-Remove trailing class params
+
+puppetlabs-nova-+-0fefb3b-+-Fix parse error
+
+puppetlabs-nova-+-7389c11-+-Update vncproxy_server url
+
+puppetlabs-nova-+-593cbe6-+-Update nova mysql db charset
+
+puppetlabs-nova-+-4dcac4e-+-The database should have utf-8 charset.
+
+puppetlabs-nova-+-d6f5474-+-Update vnc support
+
+puppetlabs-nova-+-9110725-+-Add missing file for novncproxy
+
+puppetlabs-nova-+-23ae273-+-Update keystone auth for nova
+
+puppetlabs-nova-+-0a5ed27-+-Finish db refactor
+
+puppetlabs-nova-+-6897e43-+-Remove unnessary inheritance
+
+puppetlabs-nova-+-8fe4336-+-Refactor vnc code
+
+puppetlabs-nova-+-72a6bd2-+-Add config variables for vnc proxy
+
+puppetlabs-nova-+-5da5a28-+-Allow floating IPs to be non /24 and start at non 0 ie 192.168.1.128/25
+
+puppetlabs-nova-+-a1499b3-+-Merge pull request #66 from bodepd/dev
+
+puppetlabs-nova-+-797a1e3-+-Adding the nova cert and volume service to examples/all.pp
+
+puppetlabs-nova-+-97a6e65-+-Remove ppa update
+
+puppetlabs-nova-+-0cd5566-+-Add multi-node nova example
+
+puppetlabs-nova-+-9fd5af8-+-Implement exported resources for multi-node nova
+
+puppetlabs-nova-+-020e38a-+-Manage nova-compute-$type package
+
+puppetlabs-nova-+-07992de-+-Refactor all in one example to work with changes to compute::libvirt
+
+puppetlabs-nova-+-f52edc6-+-Add missing dollar to multi_host network class param
+
+puppetlabs-nova-+-49fd77f-+-Remove compute param override.
+
+puppetlabs-nova-+-52dcd71-+-Remove nova_keystone class
+
+puppetlabs-nova-+-7c0eaca-+-Remove rackspace specific manifests
+
+puppetlabs-nova-+-d1e6005-+-nova-volume might not be ran on a controller
+
+puppetlabs-nova-+-c1c908e-+-Remove bridge creation from nova::compute::libvirt
+
+puppetlabs-nova-+-9213b09-+-Add support for multi_host on the compute node
+
+puppetlabs-nova-+-2bdf237-+-Fix typo
+
+puppetlabs-nova-+-d8b53c5-+-Improve various network modes
+
+puppetlabs-nova-+-2ea253f-+-Merge pull request #64 from fcharlier/fc/dev
+
+puppetlabs-nova-+-35b8c99-+-Change file title
+
+puppetlabs-nova-+-c5f7d6a-+-Debian OS does not use upstart
+
+puppetlabs-nova-+-250bd25-+-Merge pull request #63 from bodepd/dev
+
+puppetlabs-nova-+-f665a84-+-Only set up apt repos on Debian
+
+puppetlabs-nova-+-e9e9de6-+-Merge pull request #60 from derekhiggins/lockfile-as-param
+
+puppetlabs-nova-+-ff432d2-+-Enable cert and volume service in nova:all
+
+puppetlabs-nova-+-e27a15d-+-Add lockfile as a paramater
+
+puppetlabs-nova-+-d45ac45-+-Add tgt support for Debian
+
+puppetlabs-nova-+-bbadbde-+-Implement networks for example manifest
+
+puppetlabs-nova-+-a22c9a6-+-Implement vncproxy for Fedora
+
+puppetlabs-nova-+-d1f4983-+-Add example code for horizon.
+
+puppetlabs-nova-+-8de6574-+-Change libvirt type to qemu
+
+puppetlabs-nova-+-f3d2633-+-Update keystone service definition
+
+puppetlabs-nova-+-d47691a-+-Add single node installation example manifest
+
+puppetlabs-nova-+-f963dc5-+-Move keystone/auth to manifests
+
+puppetlabs-nova-+-79f3322-+-Remove trailing class param commas
+
+puppetlabs-nova-+-a27bc9d-+-Require mysql::python from nova::db
+
+puppetlabs-nova-+-6748403-+-Add nova keystone endpoint
+
+puppetlabs-nova-+-da2dc74-+-Remove all references to glance_host,glance_port
+
+puppetlabs-nova-+-118f32e-+-Update nova::api
+
+puppetlabs-nova-+-78f889d-+-Update example for single node
+
+puppetlabs-nova-+-32cbeb6-+-Update nova::volume
+
+puppetlabs-nova-+-9ec8467-+-Update parameters in nova class
+
+puppetlabs-nova-+-1cdf738-+-Add api_paste_config value to nova::api
+
+puppetlabs-nova-+-0ade547-+-Add nova cert, volume, and vncproxy to all
+
+puppetlabs-nova-+-0d332d1-+-Update root_helper for Debian
+
+puppetlabs-nova-+-1ca6e9d-+-Fix dep cycle for nova api
+
+puppetlabs-nova-+-8220a2b-+-Keystoneification
+
+puppetlabs-nova-+-375a616-+-Remove deprecated swift params
+
+puppetlabs-nova-+-6f8955b-+-Add nova::compute::kvm class
+
+puppetlabs-nova-+-93d06fc-+-Remove apt setup from nove::rabbitmq
+
+puppetlabs-nova-+-4b89af5-+-Style refactor
+
+puppetlabs-nova-+-914312e-+-Refactor comments
+
+puppetlabs-nova-+-e8edece-+-Add db_allow_hosts param to nova::controller
+
+puppetlabs-nova-+-ef17b78-+-Add keystone class.
+
+puppetlabs-nova-+-69d78e7-+-Add novaclient class
+
+puppetlabs-nova-+-1b5b3a3-+-Add vncproxy class
+
+puppetlabs-nova-+-616c476-+-Refactor nova services to use generic_service
+
+puppetlabs-nova-+-7a14a65-+-Update OS specific params
+
+puppetlabs-nova-+-1581a56-+-Remove Ubuntu speific classes
+
+puppetlabs-nova-+-140086c-+-Replace package ensure installed to present
+
+puppetlabs-nova-+-6803cef-+-Add rabbit mq repo setup to pre stage
+
+puppetlabs-nova-+-034bc51-+-Add a few TODOs
+
+puppetlabs-nova-+-88b57a3-+-Minor style updates
+
+puppetlabs-nova-+-60eee6d-+-Update module packages used
+
+puppetlabs-nova-+-806a52b-+-Remove deprecated param api_servers from nova::compute
+
+puppetlabs-nova-+-97c6710-+-Install nova packages per service
+
+puppetlabs-nova-+-5e9db74-+-Merge pull request #50 from bodepd/dev
+
+puppetlabs-nova-+-af61710-+-Remove extra "," in class param
+
+puppetlabs-nova-+-265cfb0-+-Remove facter ec2 fact from example file
+
+puppetlabs-nova-+-e8f9180-+-Add apt repo on Ubuntu
+
+puppetlabs-nova-+-b812305-+-Add example file
+
+puppetlabs-nova-+-e6fe889-+-Set configure bridge to false from controller
+
+puppetlabs-nova-+-189d898-+-Add network_manager param to controller class
+
+puppetlabs-nova-+-5b87afd-+-Remove trailing white spaces
+
+puppetlabs-nova-+-605c055-+-Add class parameter lockpath to controller class
+
+puppetlabs-nova-+-d5dc26c-+-set network bridge in the provider
+
+puppetlabs-nova-+-37347d1-+-set root_helper defaults
+
+puppetlabs-nova-+-a999b52-+-Add flatdhcpmanager speific config options
+
+puppetlabs-nova-+-6e43f0a-+-Do not install nova docs on every node
+
+puppetlabs-nova-+-3d33743-+-'nova' user conflicts with package-created user
+
+puppetlabs-nova-+-e47ef5c-+-Adding Floating network support
+
+puppetlabs-nova-+-faa117f-+-Added cert and volume services
+
+puppetlabs-nova-+-e66e5ab-+-Add fedora support
+
+puppetlabs-nova-+-d65b556-+-(#13120) Add connection_type to nova::compute::libvirt
+
+puppetlabs-nova-+-d822fba-+-Add explicit topscope to operatingsystem fact
+
+puppetlabs-nova-+-bcca7be-+-Replace optional_commands with commands in providers
+
+puppetlabs-nova-+-715a4fc-+-(9782) Allow deprecated auth method
+
+puppetlabs-nova-+-f2a50d8-+-Missed one network value in all.pp which needed subnet mask added
+
+puppetlabs-nova-+-c48464d-+-Fixed network values
+
+puppetlabs-nova-+-37c6d83-+-Update ubuntu tests for recent changes
+
+puppetlabs-nova-+-11d8c6a-+-Only configure network config when manager is set
+
+puppetlabs-nova-+-cc79a16-+-updated all to work with other changes.
+
+puppetlabs-nova-+-a84173f-+-Style fixes.
+
+puppetlabs-nova-+-8a7921b-+-removed compute from controller.
+
+puppetlabs-nova-+-46afdb2-+-refactor of xenserver.
+
+puppetlabs-nova-+-ebfbc1f-+-commented out firwall rule
+
+puppetlabs-nova-+-c09d2d6-+-Split out compute from controller
+
+puppetlabs-nova-+-b97237d-+-Service depends on nova-db-sync
+
+puppetlabs-nova-+-39ee6ca-+-Removed empty files:
+
+puppetlabs-nova-+-5d38e9b-+-added host to rabbitmq class.
+
+puppetlabs-nova-+-6c7f13b-+-Cleaning up deps
+
+puppetlabs-nova-+-7c8f397-+-cleanup up controller class
+
+puppetlabs-nova-+-96f065c-+-updated glance config
+
+puppetlabs-nova-+-58d8ef3-+-adding network_manager and flat_network_bridge options
+
+puppetlabs-nova-+-740f59f-+-Merge pull request #33 from bodepd/feature/master/multi-node-db
+
+puppetlabs-nova-+-a913d5d-+-nova-api should notify db sync
+
+puppetlabs-nova-+-50b2877-+-Changed 'name' param to 'dbname'.
+
+puppetlabs-nova-+-ccce22d-+-Split requirements for multi-node
+
+puppetlabs-nova-+-f938c2b-+-moved db-sync to nova::api
+
+puppetlabs-nova-+-0ed86e1-+-update ubuntu tests to use new glance log parameters
+
+puppetlabs-nova-+-7d76ab0-+-Convert use of glance_host + glance_port to combined glance_api_servers
+
+puppetlabs-nova-+-52fa7b5-+-Added exec to serve as an anchor for post-config.
+
+puppetlabs-nova-+-7d3fe81-+-Cleaned up dependencies in rabbit.
+
+puppetlabs-nova-+-7aa17ea-+-doc update
+
+puppetlabs-nova-+-fba8d07-+-Reduce number of edges from db/rabbit.
+
+puppetlabs-nova-+-345e852-+-Manage defines depend on Nova_config
+
+puppetlabs-nova-+-b7065d8-+-Fix typo in nova::manage::network declarations
+
+puppetlabs-nova-+-f6f3604-+-Convert nova::hosts:access from class to defined type
+
+puppetlabs-nova-+-92634b4-+-Update class parameters
+
+puppetlabs-nova-+-8289ca9-+-Fix typo in nova::db::allowed_hosts
+
+puppetlabs-nova-+-088791c-+-Add glance configuration to multi-node deployment
+
+puppetlabs-nova-+-1e7a001-+-Split compute to its own node
+
+puppetlabs-nova-+-7f44799-+-nova::db - optionally allow per host GRANTs
+
+puppetlabs-nova-+-19e8274-+-Rename nova::canonical::* -> ubuntu::canonical::*
+
+puppetlabs-nova-+-deb7669-+-cleanup up all.pp test.
+
+puppetlabs-nova-+-c1afee6-+-Removed class inheritence.
+
+puppetlabs-nova-+-ee06a74-+-Fixed dependency/order issues.
+
+puppetlabs-nova-+-82ab21a-+-documented that it does not work with 2.6.4
+
+puppetlabs-nova-+-a0e4036-+-Added parameter libvirt_type to nova class
+
+puppetlabs-nova-+-eb468b2-+-Added queue permissions to created rabbitmq user
+
+puppetlabs-nova-+-a196bc8-+-all test should not reset rabbitmq user/pass
+
+puppetlabs-nova-+-72f8534-+-Created test/manifest for all-in-one install.
+
+puppetlabs-nova-+-8855070-+-Rabbitmq location should be configurable.
+
+puppetlabs-nova-+-a0643f7-+-changed param names from rabbitmq to rabbit.
+
+puppetlabs-nova-+-5e90be9-+-Remove undef defaults from nova_config params
+
+puppetlabs-nova-+-3a34c17-+-Changed from default charset of utf-8
+
+puppetlabs-nova-+-509fcbb-+-Merge pull request #22 from cblument/issue/master/install_pip_xenapi_module
+
+puppetlabs-nova-+-9519f01-+-Installing xenapi python module
+
+puppetlabs-nova-+-73d8df2-+-setting the connection_type to xenapi for xenserver
+
+puppetlabs-nova-+-7ff24aa-+-Enabling services
+
+puppetlabs-nova-+-072e519-+-Converted into nova module repo.
+
+puppetlabs-nova-+-aff9389-+-Added python to class list.
+
+puppetlabs-nova-+-8ff90cb-+-removed legacy dev class.
+
+puppetlabs-nova-+-506510a-+-Added configure_bridge param
+
+puppetlabs-nova-+-fe9842d-+-converted aws_address to a class param.
+
+puppetlabs-nova-+-6dce20c-+-updated xenserver and rackspace manifest
+
+puppetlabs-nova-+-8f6de7a-+-added api_port as a param
+
+puppetlabs-nova-+-c789eba-+-Split quota management into its own class.
+
+puppetlabs-nova-+-927dfbe-+-updated nova::db to use new mysql code.
+
+puppetlabs-nova-+-6c7886d-+-manifests/rabbitmq.pp - set provider for rabbitmq types
+
+puppetlabs-nova-+-d23d441-+-Forward guest metadata/API requests to the API server
+
+puppetlabs-nova-+-1c1c83f-+-Cleaned up style a little.
+
+puppetlabs-nova-+-3da2c5c-+-re-implemented nova::rabbitmq
+
+puppetlabs-nova-+-fa044fd-+-db should depend on nova sqlconnection config.
+
+puppetlabs-nova-+-3006e0f-+-Style changes to network manifests.
+
+puppetlabs-nova-+-9b504bd-+-minor changes.
+
+puppetlabs-nova-+-725fd68-+-Added extended network management support.
+
+puppetlabs-nova-+-97d7ee7-+-removed glance from repo.
+
+puppetlabs-nova-+-5ea0954-+-updated submodule commit ids.
+
+puppetlabs-nova-+-852cdf6-+-added glance code
+
+puppetlabs-nova-+-941f1bf-+-workaround for rabbitmq-server hostname bug  (LP #653405)
+
+puppetlabs-nova-+-1589f32-+-initialize the database after it is created.
+
+puppetlabs-nova-+-a325487-+-native types for nova-manage'd users and projects
+
+puppetlabs-nova-+-a23e793-+-Added code to make glance config optional
+
+puppetlabs-nova-+-f7bde6d-+-updated canonical specific openstack code
+
+puppetlabs-nova-+-c99f1f7-+-Added nova user group config file
+
+puppetlabs-nova-+-f94d70a-+-Merge remote branch 'cblument/dev' into dev
+
+puppetlabs-nova-+-e5ec324-+-specified sane defaults for class params.
+
+puppetlabs-nova-+-8eb30aa-+-removed nova class from nova controller.
+
+puppetlabs-nova-+-ea1c36c-+-added rabbitmq module. I added this temporarily while I try to sort out how to get the features that I need into puppetlabs-rabbitmq.
+
+puppetlabs-nova-+-ad9de78-+-The host should be the hostname and not the ip address
+
+puppetlabs-nova-+-15f8132-+-Merge remote branch 'gandelman-a/dev' into dev
+
+puppetlabs-nova-+-f7261bb-+-removing unneeded parameters after refacter
+
+puppetlabs-nova-+-2483cf8-+-set defaults for rackspace all class.
+
+puppetlabs-nova-+-e0aaa17-+-fix some defaults
+
+puppetlabs-nova-+-f844517-+-added skeleton for controller class.
+
+puppetlabs-nova-+-34cc7f3-+-removed extra space.
+
+puppetlabs-nova-+-941866e-+-fixed a few small errors.
+
+puppetlabs-nova-+-43617b8-+-bug fixes for canonical::all to work.
+
+puppetlabs-nova-+-24a9304-+-removed development code from canonical tests.
+
+puppetlabs-nova-+-a855c60-+-re-factored code to make it more generic.
+
+puppetlabs-nova-+-409f625-+-Added nova_config code to manifests.
+
+puppetlabs-nova-+-ac8c7f4-+-removed connection type logic.
+
+puppetlabs-nova-+-9007524-+-upated code for new mysql interface.
+
+puppetlabs-nova-+-403ea6d-+-adding parameters to nova and nova::compute class
+
+puppetlabs-nova-+-d8208ab-+-Variety of changes to get the nova all test to run
+
+puppetlabs-nova-+-87a5091-+-removed the confighash
+
+puppetlabs-nova-+-ef9cc48-+-moved tests to be named after their respective manifests.
+
+puppetlabs-nova-+-3dca720-+-resolved syntax error in collection
+
+puppetlabs-nova-+-e2eaf13-+-checking Nova integration work 5/26/11
+
+puppetlabs-nova-+-845ba25-+-committed the code that was moved from openstack
+
+puppetlabs-nova-+-a441a53-+-initial commit for git project.
+puppetlabs-swift-+-90c6663-+-Update node blocks to use regex
+
+puppetlabs-swift-+-b63a9db-+-Merge pull request #46 from bodepd/add_loopback_mnt_param
+
+puppetlabs-swift-+-bb85c66-+-Style related updates
+
+puppetlabs-swift-+-eb02382-+-Remove trailing comma for puppet 2.6 compat
+
+puppetlabs-swift-+-337e7f8-+-Use a single replica in the all-in-one example
+
+puppetlabs-swift-+-12b8159-+-Revert "Allow multiple instances of swift::storage::server on one host"
+
+puppetlabs-swift-+-1841771-+-updated loopback, xfs, and mount to support non-loopback devices
+
+puppetlabs-swift-+-a5788ba-+-Disable 'use chroot' for rsync::server
+
+puppetlabs-swift-+-02efd7a-+-Allow multiple instances of swift::storage::server on one host
+
+puppetlabs-swift-+-c759ab6-+-Fix ring_*_device usage in swift::storage::node
+
+puppetlabs-swift-+-6b0b2de-+-Make sure the replicator services are ordered properly
+
+puppetlabs-swift-+-43cd95f-+-Merge pull request #33 from bodepd/swift_example_manifest
+
+puppetlabs-swift-+-75889ab-+-Add example site.pp
+
+puppetlabs-swift-+-7c1cf9b-+-Merge pull request #31 from fcharlier/dispersion
+
+puppetlabs-swift-+-09f726c-+-Allow multiple devices per endpoint.
+
+puppetlabs-swift-+-b428438-+-Merge pull request #26 from fcharlier/replicator_services
+
+puppetlabs-swift-+-2bdc710-+-Add note concerning keystone auth and swift-dispersion tools
+
+puppetlabs-swift-+-478c4b9-+-Update swift proxy example
+
+puppetlabs-swift-+-a3d1b08-+-Expand supported storage middlewares
+
+puppetlabs-swift-+-caad4e3-+-Implement additional proxy middlewares
+
+puppetlabs-swift-+-d831ec1-+-Reimplement keystone pipeline
+
+puppetlabs-swift-+-18365a7-+-Reimplement concurrency to be per process
+
+puppetlabs-swift-+-01ecb02-+-Implement individual server pipelines
+
+puppetlabs-swift-+-8c45b39-+-Add doc for dispersion
+
+puppetlabs-swift-+-22d2f61-+-Add swift-dispersion configuration
+
+puppetlabs-swift-+-ad081d9-+-Implement creation of user & endpoints for swift
+
+puppetlabs-swift-+-03c805e-+-Update example for Swift::Ringsync
+
+puppetlabs-swift-+-9514dd2-+-Ensure the replicator services are started
+
+puppetlabs-swift-+-b394c6d-+-Fix the rsync modules names
+
+puppetlabs-swift-+-bfa4904-+-Remove some trailing commas
+
+puppetlabs-swift-+-4a75076-+-Update example file
+
+puppetlabs-swift-+-8fd3d19-+-Update examples to use explicit pipelines
+
+puppetlabs-swift-+-993ed67-+-Remove inheritance
+
+puppetlabs-swift-+-24a01d1-+-Implement proxy pipline into fragments
+
+puppetlabs-swift-+-84d5998-+-Remove ppa config
+
+puppetlabs-swift-+-59afc07-+-Refactor of swift server configs
+
+puppetlabs-swift-+-cf78b83-+-Merge pull request #16 from fcharlier/swift_on_debian
+
+puppetlabs-swift-+-1841187-+-Replace ppa code
+
+puppetlabs-swift-+-f802df8-+-Fix dep issue in swift
+
+puppetlabs-swift-+-0cbd959-+-Upsate trunk for use Ubuntu latest packages
+
+puppetlabs-swift-+-c07615d-+-Remove patched upstart scripts
+
+puppetlabs-swift-+-2474649-+-Enforce some dependencies
+
+puppetlabs-swift-+-dba28ed-+-Enable other providers than upstart
+
+puppetlabs-swift-+-abc89b8-+-change port 6010 to 6040 due to a conflict in vagrant
+
+puppetlabs-swift-+-12275e4-+-Add swift trunk ppa
+
+puppetlabs-swift-+-5377fbc-+-Get service_provider from params file
+
+puppetlabs-swift-+-cd33a74-+-Add fedora support
+
+puppetlabs-swift-+-94fb333-+-Move generic::upstart to its own file
+
+puppetlabs-swift-+-a11c1af-+-Update memcache bind address to localhost
+
+puppetlabs-swift-+-cf34ab0-+-Add ring syncing to the multi node example
+
+puppetlabs-swift-+-6fed971-+-Add code for ring syncing
+
+puppetlabs-swift-+-cb233bd-+-Remove rsync service mentions
+
+puppetlabs-swift-+-6f9e108-+-Use xinetd for rsync
+
+puppetlabs-swift-+-66b7235-+-Only fix upstart scripts on Ubuntu.
+
+puppetlabs-swift-+-b05fe0b-+-update ip address to use eth0
+
+puppetlabs-swift-+-c416f20-+-update mispellings of local_net_ip
+
+puppetlabs-swift-+-6a83185-+-Add local net ip to swift proxy for multi
+
+puppetlabs-swift-+-a9cafd8-+-Supply missing required param to all in one example
+
+puppetlabs-swift-+-900e061-+-Add inline commments
+
+puppetlabs-swift-+-4752a3d-+-Decouple memcached configuration from proxy
+
+puppetlabs-swift-+-c7caf05-+-Make all local net ips required
+
+puppetlabs-swift-+-0e7cb86-+-Update ring creation defaults
+
+puppetlabs-swift-+-5083e19-+-Decouple storage server types from each other
+
+puppetlabs-swift-+-954e6c0-+-Remove reference to ssh keys
+
+puppetlabs-swift-+-2dbcf74-+-Add everything needed by travis-ci
+
+puppetlabs-swift-+-272937e-+-Pass correct mount dir to swift::storage::mount
+
+puppetlabs-swift-+-6705d55-+-Fix swauth proxy config
+
+puppetlabs-swift-+-65b6f0a-+-Fix milestone and release ppa config
+
+puppetlabs-swift-+-547a969-+-Add repo class for milestone and release
+
+puppetlabs-swift-+-e9dfe0f-+-Improve documentation
+
+puppetlabs-swift-+-e5a3145-+-Fix swift::storage device path default
+
+puppetlabs-swift-+-0955f3c-+-Add explicit class params for setting storeage ports
+
+puppetlabs-swift-+-b7a8f0c-+-Improve inline comments
+
+puppetlabs-swift-+-380ab56-+-Add ringbuilder role class to proxy role
+
+puppetlabs-swift-+-6f5cf72-+-Update ring exported resources
+
+puppetlabs-swift-+-eded815-+-Remove swift::storage::device declaration
+
+puppetlabs-swift-+-31dc69b-+-remove puppetmaster node declaration
+
+puppetlabs-swift-+-3689cf7-+-Use node declarations
+
+puppetlabs-swift-+-44b1c56-+-Renamed storage::device to storage::server
+
+puppetlabs-swift-+-c56bc60-+-Add custom upstart scripts
+
+puppetlabs-swift-+-edd9a6b-+-Clean up swift ringbuilder role
+
+puppetlabs-swift-+-cc163db-+-Add ringbuilder class to swift proxy role
+
+puppetlabs-swift-+-d062985-+-Add proxy to apt class
+
+puppetlabs-swift-+-310ca91-+-Removed swift::storage::device::* defines
+
+puppetlabs-swift-+-3cd7bdf-+-Add role_puppetmaster class
+
+puppetlabs-swift-+-5bebb84-+-Added code for setting swift_storage_3
+
+puppetlabs-swift-+-ea79736-+-Change swift_local_net_ip address to be a global var
+
+puppetlabs-swift-+-18d6819-+-Add inline docs to manifests
+
+puppetlabs-swift-+-7228c5c-+-Create multi-node example
+
+puppetlabs-swift-+-69ef2c1-+-Refactor single node example
+
+puppetlabs-swift-+-b035a32-+-Refactor swift::storage::node to use device defines
+
+puppetlabs-swift-+-67d53de-+-Remove swift::storage::node from loopback define
+
+puppetlabs-swift-+-cea6b84-+-Remove Rsync::Server::Module defaults
+
+puppetlabs-swift-+-a6fcff3-+-Add defines for managing devices and rings
+
+puppetlabs-swift-+-4ff3e18-+-Split example manifests into separate files
+
+puppetlabs-swift-+-8c13cd1-+-Fix mispelling of container
+
+puppetlabs-swift-+-de50a09-+-Update misnamed ringbuilder defines
+
+puppetlabs-swift-+-ece1d84-+-Refactor of example site.pp
+
+puppetlabs-swift-+-900096f-+-Remove comma from last define parameter
+
+puppetlabs-swift-+-9174263-+-Implement ringbuilder
+
+puppetlabs-swift-+-47d49e7-+-Initial commit.
+roles-+-5b94f45-+-Revert "debug sudo"
+
+roles-+-e015def-+-debug sudo
+
+roles-+-4c24a1c-+-Revert "Remove unnecessary/unconfigured modules for pmlc"
+
+roles-+-18c59da-+-Remove unnecessary/unconfigured modules for pmlc
+
+roles-+-7db117f-+-Add roles for pmlc versions of openstack boxen
+
+roles-+-331724b-+-Change cicd firewall profile name to deploy.
+
+roles-+-e01ed9c-+-Initial commit
+solar-+-4d7efd4a-+-Make puppet run on the new_db
+
+solar-+-3fdea064-+-Merge pull request #277 from pigmej/pigmej-fix-158
+
+solar-+-9f037ffa-+-Added update action to nova_compute_libvirt_puppet
+
+solar-+-f5ab0fba-+-Add update action for nova_compute
+
+solar-+-1618caf9-+-Run and remove are the same
+
+solar-+-9878adb9-+-Run and remove are the same
+
+solar-+-17f80b4a-+-Do not use hardcoded db port
+
+solar-+-43329c8b-+-Add and fix update actions. changing db_port should work now
+
+solar-+-8c1dc662-+-Merge branch 'master' into librarian
+
+solar-+-8da98c3c-+-Copy action run to update
+
+solar-+-e077a157-+-Use default token backend. KVS seems to be broken
+
+solar-+-4a3add5f-+-Merge pull request #244 from bogdando/node_network_puppet
+
+solar-+-19366f66-+-Add ceph_mon resource and example
+
+solar-+-9751b879-+-Workaround l23network module issue
+
+solar-+-289f022b-+-Update node_network resource
+
+solar-+-3d203c97-+-Add node_network puppet resource
+
+solar-+-4dbfd63c-+-Fix nova_generic_service resource
+
+solar-+-94979f8d-+-Add nova generic service resource
+
+solar-+-8a5090ff-+-Del duplicated puppet parameter
+
+solar-+-23899f01-+-Fix ml2 agent resource and compostion
+
+solar-+-2c185523-+-W/a LP1490438 for ml2 plugin resource
+
+solar-+-6f72acde-+-Remove ovs plugin and agent
+
+solar-+-1d990bb3-+-Add neutron agent ovs with ml2 plugin resource
+
+solar-+-696e0445-+-Add neutron ml2 plugin resource
+
+solar-+-e00003a5-+-Merge pull request #53 from Mirantis/bogdando/apache_puppet
+
+solar-+-2e78911e-+-Fix neutron conf for compute and nova_neutron resource
+
+solar-+-6251331f-+-Fix neutron db stamp head
+
+solar-+-ad533c3c-+-Add neutron metadata agent resource
+
+solar-+-fa529776-+-Add neutron L3 agent resource
+
+solar-+-4a9fee81-+-Add neutron DHCP agent resource
+
+solar-+-d83e2031-+-Fix neutron stamp/upgrade head
+
+solar-+-956261f3-+-Fix core plugin, remove external class ref for neutron
+
+solar-+-26bf28ff-+-Fix removed sql_con
+
+solar-+-26197555-+-Add composition for OVS plugin/agent
+
+solar-+-ad9e1fa3-+-Remove deprecated/unused sql conn inputs
+
+solar-+-5bc771b8-+-Add neutron OVS agent resource
+
+solar-+-190beffd-+-Add neutron ovs plugin resource
+
+solar-+-0570c4a6-+-Remove external class ref for neutron server resource
+
+solar-+-8be49061-+-Decouple neutron resource
+
+solar-+-a2d72c4f-+-Add apache puppet resource
+
+solar-+-8daccdf7-+-Refactor example-puppet.py actions
+
+solar-+-8d1c48ac-+-Decompose glance_api_servicers input
+
+solar-+-847f17b1-+-Add cinder volume ISCSI resource
+
+solar-+-ab24480e-+-Add cinder_glance resource
+
+solar-+-51d12211-+-Fix glance api servers for nova compute
+
+solar-+-d8f59710-+-Add nova_neutron resource.
+
+solar-+-41433b26-+-Add nova comp libvirt resource
+
+solar-+-204853a1-+-Add exec post config and network refresh to n-compute
+
+solar-+-88d11981-+-Add nova compute resource
+
+solar-+-041161cf-+-Add nova conductor resource
+
+solar-+-43843b6f-+-Fix remove nova api resource
+
+solar-+-f4bb568a-+-Fix schema and db-sync condition
+
+solar-+-4c862d6b-+-Add missing post-config and nova-common
+
+solar-+-a35697ae-+-Add missed admin_password for nova api resource
+
+solar-+-86136d77-+-Fix typo
+
+solar-+-70d9a050-+-Add nova api puppet resource
+
+solar-+-648dd6d4-+-Del nova_api after moved to nova_puppet resource
+
+solar-+-b26c8f95-+-Fix schema for nova puppet
+
+solar-+-08b4bb7f-+-Create nova base puppet resource
+
+solar-+-ca9cbd0a-+-Fix remove actions for glance puppet resources
+
+solar-+-1b400b27-+-Add glance registry puppet resource
+
+solar-+-be125bb2-+-Fix glance puppet classes dependencies
+
+solar-+-10afefd2-+-Align glance_puppet with cinder_puppet and upstream
+
+solar-+-47b52a27-+-Glance-puppet, not fully working yet
+
+solar-+-4470c7d2-+-Merge branch 'master' into nova-api
+
+solar-+-b2f94c1c-+-Add compostion layer for c-volume puppet
+
+solar-+-73f87c03-+-Remove enabled and manage_services params for c-volume
+
+solar-+-a23ddc73-+-Add cinder volume puppet resource
+
+solar-+-de9b0645-+-Remove enabled and manage_service for c-scheduler
+
+solar-+-08978ea3-+-Fix cinder scheduler puppet params
+
+solar-+-dfa473af-+-Add cinder scheduler puppet resource
+
+solar-+-5297e171-+-Remove enabled and manage_service for c-api
+
+solar-+-e2a049e0-+-Fix undeploy and resource_name ref at cinder api
+
+solar-+-9d6e5fe0-+-Fix package cinder dependency for cinder api
+
+solar-+-e6b033fb-+-Fix indentation and parameters
+
+solar-+-800054cc-+-Add cinder api puppet resource
+
+solar-+-5f7129c9-+-Merge pull request #39 from Mirantis/bogdando/cinder_puppet
+
+solar-+-e2d4eca4-+-Update virtual resource for current branch
+
+solar-+-0e16ac95-+-Fix remove and resource name ref for cinder
+
+solar-+-124d9834-+-Merge pull request #40 from Mirantis/rabbitmq_fix
+
+solar-+-322e1bb8-+-Neutron fixes
+
+solar-+-2e6c8ba6-+-Use default nodename when removing
+
+solar-+-21112df4-+-Remove nodename
+
+solar-+-674dbb57-+-change path
+
+solar-+-7dfd32eb-+-nova-api resource
+
+solar-+-74abd99f-+-Fix undef db conneciton for cinder
+
+solar-+-824c12d9-+-Add cinder puppet resource
+
+solar-+-b694f446-+-Fix rabbitmq startup
+
+solar-+-7b72fb37-+-Rabbitmq remove action and fixes
+
+solar-+-5c1c782e-+-Rabbimtq service from puppet
+
+solar-+-77e5deb5-+-Fix bools in puppet manifests
+
+solar-+-fbe847b5-+-Use FACTER_resource_name in shell variables
+
+solar-+-b8d9436c-+-Fix remove
+
+solar-+-86471e83-+-neutron_puppet works now with upstream openstack manifests
+
+solar-+-7323a842-+-Puppet: lots of fixes & improvements
+
+solar-+-65c4e755-+-Move Puppet resources to outside repos
+
+solar-+-e6afb39b-+-hiera-redis added, single-master redis cluster
+
+solar-+-edf41f83-+-Hiera storage showoff
+
+solar-+-7f667471-+-Puppet: Keystone remove action is working now
+
+solar-+-54fdf934-+-Puppet: added port to keystone
+
+solar-+-4bb9958f-+-Keystone can now be deployed using Puppet
+solar-resources-+-1b28b8f-+-Change resources structure to match repository one
+
+solar-resources-+-ceb2e70-+-Make puppet run on the new_db
+
+solar-resources-+-3f40804-+-Merge pull request #277 from pigmej/pigmej-fix-158
+
+solar-resources-+-7278f92-+-Added update action to nova_compute_libvirt_puppet
+
+solar-resources-+-4e034b4-+-Add update action for nova_compute
+
+solar-resources-+-c596ce6-+-Run and remove are the same
+
+solar-resources-+-a37e711-+-Run and remove are the same
+
+solar-resources-+-4eb19f8-+-Do not use hardcoded db port
+
+solar-resources-+-427dbd1-+-Add and fix update actions. changing db_port should work now
+
+solar-resources-+-75ea9e7-+-Merge branch 'master' into librarian
+
+solar-resources-+-2463212-+-Copy action run to update
+
+solar-resources-+-3c13783-+-Use default token backend. KVS seems to be broken
+
+solar-resources-+-cf07fa0-+-Merge pull request #244 from bogdando/node_network_puppet
+
+solar-resources-+-8dfc414-+-Add ceph_mon resource and example
+
+solar-resources-+-0cb4b08-+-Workaround l23network module issue
+
+solar-resources-+-dd654ea-+-Update node_network resource
+
+solar-resources-+-cd1dfda-+-Add node_network puppet resource
+
+solar-resources-+-50d780c-+-Fix nova_generic_service resource
+
+solar-resources-+-7814a8b-+-Add nova generic service resource
+
+solar-resources-+-6d54c03-+-Del duplicated puppet parameter
+
+solar-resources-+-6650ef8-+-Fix ml2 agent resource and compostion
+
+solar-resources-+-aacb5bb-+-W/a LP1490438 for ml2 plugin resource
+
+solar-resources-+-e6d8a8b-+-Remove ovs plugin and agent
+
+solar-resources-+-585ec95-+-Add neutron agent ovs with ml2 plugin resource
+
+solar-resources-+-0b46904-+-Add neutron ml2 plugin resource
+
+solar-resources-+-dccb6b5-+-Merge pull request #53 from Mirantis/bogdando/apache_puppet
+
+solar-resources-+-bb80096-+-Fix neutron conf for compute and nova_neutron resource
+
+solar-resources-+-aedc1b5-+-Fix neutron db stamp head
+
+solar-resources-+-34bbdc7-+-Add neutron metadata agent resource
+
+solar-resources-+-f341470-+-Add neutron L3 agent resource
+
+solar-resources-+-5934f20-+-Add neutron DHCP agent resource
+
+solar-resources-+-b3c68cd-+-Fix neutron stamp/upgrade head
+
+solar-resources-+-c746ecb-+-Fix core plugin, remove external class ref for neutron
+
+solar-resources-+-b9045e0-+-Fix removed sql_con
+
+solar-resources-+-bd8cf68-+-Add composition for OVS plugin/agent
+
+solar-resources-+-71605ea-+-Remove deprecated/unused sql conn inputs
+
+solar-resources-+-4871263-+-Add neutron OVS agent resource
+
+solar-resources-+-52ba02e-+-Add neutron ovs plugin resource
+
+solar-resources-+-ea6354b-+-Remove external class ref for neutron server resource
+
+solar-resources-+-2841ba0-+-Decouple neutron resource
+
+solar-resources-+-dc400bf-+-Add apache puppet resource
+
+solar-resources-+-6e5f789-+-Refactor example-puppet.py actions
+
+solar-resources-+-4b3f883-+-Decompose glance_api_servicers input
+
+solar-resources-+-5d59601-+-Add cinder volume ISCSI resource
+
+solar-resources-+-6c7e346-+-Add cinder_glance resource
+
+solar-resources-+-a2ad4c1-+-Fix glance api servers for nova compute
+
+solar-resources-+-087b2b7-+-Add nova_neutron resource.
+
+solar-resources-+-09b3bd1-+-Add nova comp libvirt resource
+
+solar-resources-+-c02055c-+-Add exec post config and network refresh to n-compute
+
+solar-resources-+-4c8e99f-+-Add nova compute resource
+
+solar-resources-+-6ca7a3e-+-Add nova conductor resource
+
+solar-resources-+-ce6db69-+-Fix remove nova api resource
+
+solar-resources-+-8ed672a-+-Fix schema and db-sync condition
+
+solar-resources-+-ec4515e-+-Add missing post-config and nova-common
+
+solar-resources-+-962ab6f-+-Add missed admin_password for nova api resource
+
+solar-resources-+-f785ac2-+-Fix typo
+
+solar-resources-+-840074a-+-Add nova api puppet resource
+
+solar-resources-+-ec00e04-+-Del nova_api after moved to nova_puppet resource
+
+solar-resources-+-c61536c-+-Fix schema for nova puppet
+
+solar-resources-+-f806982-+-Create nova base puppet resource
+
+solar-resources-+-ba2ee11-+-Fix remove actions for glance puppet resources
+
+solar-resources-+-aefc796-+-Add glance registry puppet resource
+
+solar-resources-+-1985565-+-Fix glance puppet classes dependencies
+
+solar-resources-+-bebf6e2-+-Align glance_puppet with cinder_puppet and upstream
+
+solar-resources-+-dff1ada-+-Glance-puppet, not fully working yet
+
+solar-resources-+-dc21bd3-+-Merge branch 'master' into nova-api
+
+solar-resources-+-41f8e9c-+-Add compostion layer for c-volume puppet
+
+solar-resources-+-25df204-+-Remove enabled and manage_services params for c-volume
+
+solar-resources-+-44d5847-+-Add cinder volume puppet resource
+
+solar-resources-+-f35d1e2-+-Remove enabled and manage_service for c-scheduler
+
+solar-resources-+-6bcda51-+-Fix cinder scheduler puppet params
+
+solar-resources-+-6616bcc-+-Add cinder scheduler puppet resource
+
+solar-resources-+-00427f9-+-Remove enabled and manage_service for c-api
+
+solar-resources-+-4555c6b-+-Fix undeploy and resource_name ref at cinder api
+
+solar-resources-+-3ba0930-+-Fix package cinder dependency for cinder api
+
+solar-resources-+-2e3f784-+-Fix indentation and parameters
+
+solar-resources-+-157c975-+-Add cinder api puppet resource
+
+solar-resources-+-e89af4f-+-Merge pull request #39 from Mirantis/bogdando/cinder_puppet
+
+solar-resources-+-d658be3-+-Update virtual resource for current branch
+
+solar-resources-+-02a32c1-+-Fix remove and resource name ref for cinder
+
+solar-resources-+-5541961-+-Merge pull request #40 from Mirantis/rabbitmq_fix
+
+solar-resources-+-03f955d-+-Neutron fixes
+
+solar-resources-+-5d2cdb2-+-Use default nodename when removing
+
+solar-resources-+-c3b8ed0-+-Remove nodename
+
+solar-resources-+-768eaf0-+-change path
+
+solar-resources-+-a05e49b-+-nova-api resource
+
+solar-resources-+-6f7338e-+-Fix undef db conneciton for cinder
+
+solar-resources-+-58bd845-+-Add cinder puppet resource
+
+solar-resources-+-7564788-+-Fix rabbitmq startup
+
+solar-resources-+-e4f7346-+-Rabbitmq remove action and fixes
+
+solar-resources-+-0faf635-+-Rabbimtq service from puppet
+
+solar-resources-+-2db3e81-+-Fix bools in puppet manifests
+
+solar-resources-+-ef7a000-+-Use FACTER_resource_name in shell variables
+
+solar-resources-+-072f42b-+-Fix remove
+
+solar-resources-+-c592016-+-neutron_puppet works now with upstream openstack manifests
+
+solar-resources-+-ccaadaf-+-Puppet: lots of fixes & improvements
+
+solar-resources-+-eec8bc1-+-Move Puppet resources to outside repos
+
+solar-resources-+-9ebb1ac-+-hiera-redis added, single-master redis cluster
+
+solar-resources-+-2d52643-+-Hiera storage showoff
+
+solar-resources-+-5c70cd6-+-Puppet: Keystone remove action is working now
+
+solar-resources-+-70032fe-+-Puppet: added port to keystone
+
+solar-resources-+-93d156e-+-Keystone can now be deployed using Puppet
