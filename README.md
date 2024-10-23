@@ -20,3 +20,14 @@ At the end we get another list that we will use in the next step.
 5. We run git_log_pp_commits.sh to only retrieve messages from commits that affected puppet files.
 
 6. We run also gh_repo_issue.sh to list the issues of the repo candidates
+
+7. The feature_importance.ipynb notebook is used to compute the feature importance of each identified property provided by the Random
+Forest-based prediction model.
+
+8. The scott_knott_ft_Imp.ipynb notebook (in R) is used to apply the Scott–Knott test to statistically identify which properties have greater feature importance.
+
+9. The pca_analysis.ipynb notebook is used to apply Principal Component Analysis (PCA) to reduce dimensionality.
+
+10. In ml_models.ipynb notebook,  we use 5 ML algorithms to construct defect prediction models: Logistic Regression, CART, Naive Bayes, KNN and Random Forest.
+
+11. In scott_knott_ml.ipynb notebook (in R), we apply the scott_knott test to compare prediction performance measures: precision, recall, AUC, and F-measure.
